@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a155ece80369d4e99bdaf5e59169b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _occlusionShadersMode: 2
+  _occlusionShadersMode: 1
   _removeHands: 0
   CustomTrackingSpace: {fileID: 0}
   <MaskMeshFilters>k__BackingField: []
@@ -744,7 +744,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 15b1d5ff3d274694e8d0c6cb466a4ae6, type: 2}
+  - {fileID: 2100000, guid: 58d840362d5fbef48a1f93bb21670bf3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1339,7 +1339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _monoscopic: 0
   _sharpenType: 0
-  _enableDynamicResolution: 0
+  _enableDynamicResolution: 1
   minDynamicResolutionScale: 1
   maxDynamicResolutionScale: 1
   quest2MinDynamicResolutionScale: 0.7
@@ -1476,7 +1476,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1538483739
 Transform:
   m_ObjectHideFlags: 0
@@ -1944,7 +1944,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 944559031}
   - {fileID: 1442531314}
-  - {fileID: 842575279}
   - {fileID: 1737229392}
   - {fileID: 369434391}
   - {fileID: 1538483739}
+  - {fileID: 842575279}
