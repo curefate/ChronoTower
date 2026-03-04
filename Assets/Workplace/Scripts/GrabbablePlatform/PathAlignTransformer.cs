@@ -7,8 +7,10 @@ using System.Collections;
 
 public class PathAlignTransformer : MonoBehaviour, ITransformer
 {
-    [SerializeField] private bool releaseToNearestPoint;
-    [SerializeField] private float alignSpeed;
+    [SerializeField] private bool releaseToNearestPoint = true;
+    [SerializeField] private bool alignRotation = false;
+    [SerializeField] private bool alignScale = false;
+    [SerializeField] private float alignSpeed = 5f;
     [SerializeField] private List<AlignPoint> alignPoints;
     [SerializeField, Optional, Tooltip("Another transform will replace the grabbing object for rotation and scaling.")]
     private Transform alternateTransform;
@@ -62,15 +64,14 @@ public class PathAlignTransformer : MonoBehaviour, ITransformer
 
         // 应用到真实物体
         _grabbableTransform.position = constrainedPos;
-        if (alternateTransform != null)
+        var modifyTransform = alternateTransform != null ? alternateTransform : _grabbableTransform;
+        if (alignRotation)
         {
-            alternateTransform.rotation = constrainedRot;
-            alternateTransform.localScale = constrainedScale;
+            modifyTransform.rotation = constrainedRot;
         }
-        else
+        if (alignScale)
         {
-            _grabbableTransform.rotation = constrainedRot;
-            _grabbableTransform.localScale = constrainedScale;
+            modifyTransform.localScale = constrainedScale;
         }
     }
 
@@ -169,21 +170,30 @@ public class PathAlignTransformer : MonoBehaviour, ITransformer
                 ref positionVelocity,
                 1f / alignSpeed);
 
-            modifyTransform.localScale = Vector3.SmoothDamp(
-                modifyTransform.localScale,
-                target.transform.localScale,
-                ref scaleVelocity,
-                1f / alignSpeed);
+            if (alignScale)
+            {
+                modifyTransform.localScale = Vector3.SmoothDamp(
+                    modifyTransform.localScale,
+                    target.transform.localScale,
+                    ref scaleVelocity,
+                    1f / alignSpeed);
+            }
 
-            modifyTransform.rotation = Quaternion.RotateTowards(
-                modifyTransform.rotation,
-                target.transform.rotation,
-                alignSpeed * 90f * Time.deltaTime);
+            if (alignRotation)
+            {
+                modifyTransform.rotation = Quaternion.RotateTowards(
+                    modifyTransform.rotation,
+                    target.transform.rotation,
+                    alignSpeed * 90f * Time.deltaTime);
+            }
 
             yield return null;
         }
 
-        _grabbableTransform.SetPositionAndRotation(target.transform.position, alternateTransform == null ? target.transform.rotation : _grabbableTransform.rotation);
-        modifyTransform.localScale = target.transform.localScale;
+        _grabbableTransform.SetPositionAndRotation(target.transform.position, (alternateTransform == null || !alignRotation) ? target.transform.rotation : _grabbableTransform.rotation);
+        if (alignScale)
+        {
+            modifyTransform.localScale = target.transform.localScale;
+        }
     }
 }
