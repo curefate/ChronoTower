@@ -37,7 +37,7 @@ public class PathAlignTransformer : MonoBehaviour, ITransformer
             _alignCoroutine = null;
         }
         _grabOffset = _grabbableTransform.position - _grabbable.GrabPoints[0].position;
-        FindClosestAlignPoint().onExit?.Invoke();
+        FindClosestAlignablePoint().onExit?.Invoke();
     }
 
     public void UpdateTransform()
@@ -76,7 +76,7 @@ public class PathAlignTransformer : MonoBehaviour, ITransformer
 
     public void EndTransform()
     {
-        var closestPoint = FindClosestAlignPoint();
+        var closestPoint = FindClosestAlignablePoint();
         if (releaseToNearestPoint)
         {
             _alignCoroutine = StartCoroutine(AlignTo(closestPoint));
@@ -121,13 +121,14 @@ public class PathAlignTransformer : MonoBehaviour, ITransformer
         return Mathf.Clamp01(t);
     }
 
-    private AlignPoint FindClosestAlignPoint()
+    private AlignPoint FindClosestAlignablePoint()
     {
         AlignPoint closestPoint = null;
         float closestDistance = float.MaxValue;
 
         foreach (var point in alignPoints)
         {
+            if (point == null || !point.IsAlignable) continue;
             float distance = Vector3.Distance(_grabbableTransform.position, point.transform.position);
             if (distance < closestDistance)
             {
@@ -144,11 +145,12 @@ public class PathAlignTransformer : MonoBehaviour, ITransformer
         if (alignPoints == null || alignPoints.Count == 0) return;
 
         Gizmos.color = Color.rosyBrown;
-        for (int i = 0; i < alignPoints.Count - 1; i++)
+        for (int i = 0; i < alignPoints.Count; i++)
         {
-            if (alignPoints[i] == null || alignPoints[i + 1] == null) continue;
-            Gizmos.DrawLine(alignPoints[i].transform.position, alignPoints[i + 1].transform.position);
+            if (alignPoints[i] == null) continue;
             Gizmos.DrawSphere(alignPoints[i].transform.position, 0.01f);
+            if (i + 1 >= alignPoints.Count || alignPoints[i + 1] == null) continue;
+            Gizmos.DrawLine(alignPoints[i].transform.position, alignPoints[i + 1].transform.position);
         }
     }
 
