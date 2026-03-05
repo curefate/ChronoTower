@@ -5,12 +5,9 @@ public class NodeGraph : MonoBehaviour
 {
     private List<Node> allNodes;
 
-    void Start()
+    void Awake()
     {
-        if (allNodes == null)
-        {
-            allNodes = new List<Node>();
-        }
+        allNodes ??= new List<Node>();
     }
 
     public bool IsNodeInGraph(Node node)
