@@ -28,6 +28,12 @@ public class TimePublisher : MonoBehaviour
         }
     }
 
+    public void NotifyTimeChanged(int eventTypeNumber)
+    {
+        TimeEventType eventType = (TimeEventType)eventTypeNumber;
+        NotifyTimeChanged(eventType);
+    }
+
     public void RegisterListener(ITimeListener listener)
     {
         if (!listeners.Contains(listener))
@@ -61,7 +67,7 @@ public class TimePublisher : MonoBehaviour
 
 public enum TimeEventType
 {
-    None,
+    None = -1,
     TimeProgressed,
     TimeReversed,
     //TimePaused,

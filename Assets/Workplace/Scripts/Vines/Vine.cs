@@ -18,8 +18,7 @@ public class Vine : MonoBehaviour, ITimeListener
         {
             StopCoroutine(_transformCoroutine);
         }
-        _transformCoroutine = StartCoroutine(ApplyTransform(growTransform));
-        onGrow?.Invoke();
+        _transformCoroutine = StartCoroutine(ControlGrowth(true));
     }
 
     private void OnShrink()
@@ -28,12 +27,14 @@ public class Vine : MonoBehaviour, ITimeListener
         {
             StopCoroutine(_transformCoroutine);
         }
-        _transformCoroutine = StartCoroutine(ApplyTransform(shrinkTransform));
-        onShrink?.Invoke();
+        _transformCoroutine = StartCoroutine(ControlGrowth(false));
     }
 
-    private IEnumerator ApplyTransform(Transform targetTransform)
+    private IEnumerator ControlGrowth(bool isGrow)
     {
+        var targetTransform = isGrow ? growTransform : shrinkTransform;
+        var onComplete = isGrow ? onGrow : onShrink;
+
         Vector3 initialPosition = transform.position;
         Vector3 targetPosition = targetTransform.position;
         Vector3 initialScale = transform.localScale;
@@ -50,8 +51,10 @@ public class Vine : MonoBehaviour, ITimeListener
             elapsedTime += Time.deltaTime;
             yield return null;
         }
+        transform.SetPositionAndRotation(targetPosition, targetRotation);
         transform.localScale = targetScale;
-        transform.rotation = targetRotation;
+
+        onComplete?.Invoke();
     }
 
     public void OnTimeChanged(TimeEventType eventType)
@@ -72,7 +75,7 @@ public class Vine : MonoBehaviour, ITimeListener
         TimePublisher.Instance.RegisterListener(this);
     }
 
-    private void OnEnable()
+/*     private void OnEnable()
     {
         TimePublisher.Instance.RegisterListener(this);
     }
@@ -80,10 +83,24 @@ public class Vine : MonoBehaviour, ITimeListener
     private void OnDisable()
     {
         TimePublisher.Instance.UnregisterListener(this);
-    }
+    } */
 
     private void OnDestroy()
     {
         TimePublisher.Instance.UnregisterListener(this);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (shrinkTransform != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(shrinkTransform.position, 0.01f);
+        }
+        if (growTransform != null)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(growTransform.position, 0.01f);
+        }
     }
 }
