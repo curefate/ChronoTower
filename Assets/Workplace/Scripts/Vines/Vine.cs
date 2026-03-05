@@ -9,11 +9,22 @@ public class Vine : MonoBehaviour, ITimeListener
     [SerializeField] private Transform growTransform;
     [SerializeField] private UnityEvent onGrow;
     [SerializeField] private UnityEvent onShrink;
+    [SerializeField] private UnityEvent onBlocked;
+    [SerializeField] private bool ifCanGrow = true;
+    public void SetCanGrow(bool value) => ifCanGrow = value;
+    [SerializeField] private bool ifCanShrink = true;
+    public void SetCanShrink(bool value) => ifCanShrink = value;
 
     private Coroutine _transformCoroutine;
 
     private void OnGrow()
     {
+        if (!ifCanGrow)
+        {
+            onBlocked?.Invoke();
+            return;
+        }
+
         if (_transformCoroutine != null)
         {
             StopCoroutine(_transformCoroutine);
@@ -23,6 +34,12 @@ public class Vine : MonoBehaviour, ITimeListener
 
     private void OnShrink()
     {
+        if (!ifCanShrink)
+        {
+            onBlocked?.Invoke();
+            return;
+        }
+
         if (_transformCoroutine != null)
         {
             StopCoroutine(_transformCoroutine);
@@ -75,15 +92,15 @@ public class Vine : MonoBehaviour, ITimeListener
         TimePublisher.Instance.RegisterListener(this);
     }
 
-/*     private void OnEnable()
-    {
-        TimePublisher.Instance.RegisterListener(this);
-    }
+    /*     private void OnEnable()
+        {
+            TimePublisher.Instance.RegisterListener(this);
+        }
 
-    private void OnDisable()
-    {
-        TimePublisher.Instance.UnregisterListener(this);
-    } */
+        private void OnDisable()
+        {
+            TimePublisher.Instance.UnregisterListener(this);
+        } */
 
     private void OnDestroy()
     {
