@@ -10,6 +10,61 @@ public class Node : MonoBehaviour
     [SerializeField] private UnityEvent onEnter;
     [SerializeField] private UnityEvent onExit;
 
+    private const float DistanceThreshold = 0.1f;
+
+    public void ConnectTo(Node other)
+    {
+        if (other == null || other == this) return;
+
+        neighbors ??= new List<Node>();
+        if (!neighbors.Contains(other))
+        {
+            neighbors.Add(other);
+        }
+    }
+
+    public void ConnectToBoth(Node other)
+    {
+        if (other == null || other == this) return;
+
+        ConnectTo(other);
+        other.ConnectTo(this);
+    }
+
+    public void ConnectToNear(Node other)
+    {
+        if (other == null || other == this) return;
+
+        if (Vector3.Distance(transform.position, other.transform.position) <= DistanceThreshold &&
+            Mathf.Abs(transform.position.y - other.transform.position.y) <= DistanceThreshold)
+        {
+            ConnectTo(other);
+        }
+    }
+
+    public void ConnectToNearBoth(Node other)
+    {
+        if (other == null || other == this) return;
+
+        ConnectToNear(other);
+        other.ConnectToNear(this);
+    }
+
+    public void DisConnectTo(Node other)
+    {
+        if (other == null || other == this) return;
+
+        neighbors?.Remove(other);
+    }
+
+    public void DisconnectToBoth(Node other)
+    {
+        if (other == null || other == this) return;
+
+        DisConnectTo(other);
+        other.DisConnectTo(this);
+    }
+
     public virtual void Enter(NodeMover mover)
     {
         onEnter?.Invoke();
@@ -22,17 +77,8 @@ public class Node : MonoBehaviour
 
     void Start()
     {
-        if (neighbors == null || neighbors.Count == 0)
-        {
-            Debug.LogWarning($"Node '{name}' has no neighbors assigned.");
-        }
-        foreach (Node neighbor in neighbors)
-        {
-            if (neighbor == null)
-            {
-                Debug.LogWarning($"Node '{name}' has a null neighbor reference.");
-            }
-        }
+        neighbors ??= new List<Node>();
+        neighbors = neighbors.Distinct().Where(n => n != null && n != this).ToList();
 
         var nodeGraph = FindFirstObjectByType<NodeGraph>();
         if (nodeGraph == null)
@@ -58,9 +104,13 @@ public class Node : MonoBehaviour
         {
             Gizmos.color = Color.yellow;
         }
-        else
+        else if (neighbors.Count == 2)
         {
             Gizmos.color = Color.green;
+        }
+        else
+        {
+            Gizmos.color = Color.blueViolet;
         }
         Gizmos.DrawSphere(transform.position, 0.015f);
 

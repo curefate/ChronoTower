@@ -29,7 +29,7 @@ public class NodeGraph : MonoBehaviour
         }
     }
 
-    public void ConnectNode(Node from, Node to, bool bidirectional = false)
+    /* public void ConnectNode(Node from, Node to, bool bidirectional = false)
     {
         if (!IsNodeInGraph(from) || !IsNodeInGraph(to))
         {
@@ -65,7 +65,7 @@ public class NodeGraph : MonoBehaviour
         if (!bidirectional) return;
 
         to.neighbors?.Remove(from);
-    }
+    } */
 
     public bool FindPath(Node start, Node end, out List<Node> path)
     {
