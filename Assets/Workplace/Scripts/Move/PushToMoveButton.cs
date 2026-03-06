@@ -14,6 +14,7 @@ public class PushToMoveButton : MonoBehaviour
         foreach (Node neighbor in nodeMover.currentNode.neighbors)
         {
             Vector3 toNeighbor = neighbor.transform.position - nodeMover.currentNode.transform.position;
+            toNeighbor = Vector3.ProjectOnPlane(toNeighbor, Vector3.up).normalized;
             float angle = Vector3.Angle(direction, toNeighbor);
             if (angle < minAngle)
             {
