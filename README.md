@@ -122,7 +122,7 @@ Some tips, tricks, and best practices for using [Your App XR} effectively:
 - Tip 1
 - Tip 2
 
-
+  
 ## References
 
 Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
