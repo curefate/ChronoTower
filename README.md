@@ -31,9 +31,30 @@ To communicate the concept more clearly within the team, we created an early vis
 
 **User Journey**
 
+
 **Wireframes and Prototypes**
 
-**User Research**
+Assets:
+V1
+
+V5
+
+
+Prototype:
+V1
+
+
+V??
+
+
+
+**User Research and Testing**
+
+
+
+
+
+
 
 ## System description
 
