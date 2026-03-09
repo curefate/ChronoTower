@@ -129,4 +129,8 @@ Acknowledge here the sources, references, or inspirations that you used for your
 
 ## Contributors
 
-The authors of the project, contact information, and links to their websites or portfolios.
+Fernando Valcazara
+Li Zijie
+Tan Ju Wei Audrie
+
+contact information, and links to their websites or portfolios.
