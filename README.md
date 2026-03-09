@@ -13,7 +13,7 @@ The experience takes place on a tabletop Mixed reality environment, where player
 [_Add evidence on the general overview of how you planned, designed, and developed your project, including the goals, challenges, and solutions._]
 
 **Brainstorming**
-
+ 
 The project began with a group brainstorming session where we explored ideas for a mixed reality experience. Since many of us enjoy puzzle games, we decided to create an MR puzzle game focused on perspective puzzles, time control, and rotating structures. During this stage we also defined the core character, Lil Charlie, a small rusty robot created to repair clock towers.
 
 <p align="center"><img width="348" height="523" alt="Brainstorm document" src="https://github.com/user-attachments/assets/010b7147-761a-4378-a347-1c7fc85b88a2" /></p>
