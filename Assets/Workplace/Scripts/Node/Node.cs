@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class Node : MonoBehaviour
 {
     public List<Node> neighbors;
+    public List<string> tags;
 
     [SerializeField] private UnityEvent onEnter;
     [SerializeField] private UnityEvent onExit;

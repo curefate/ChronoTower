@@ -21,6 +21,7 @@ public class NodeMover : MonoBehaviour
     {
         if (_isMoving) return;
 
+        // Align the current node's position when not moving
         transform.position = Vector3.MoveTowards(transform.position, currentNode.transform.position + offset, 10 * Time.deltaTime);
     }
 
