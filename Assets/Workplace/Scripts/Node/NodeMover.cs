@@ -5,24 +5,46 @@ using UnityEngine;
 public class NodeMover : MonoBehaviour
 {
     public float moveSpeed;
+    public float rotationSpeed;
     public Node currentNode;
     public Vector3 offset;
 
     private NodeGraph nodeGraph;
+    private Animator _animator;
     private bool _isMoving;
-    private const int _moveTowardBatch = 2;
+    private float _originMoveSpeed;
 
     private void Start()
     {
         nodeGraph = FindFirstObjectByType<NodeGraph>();
+        _animator = GetComponent<Animator>();
+        if (_animator == null)
+        {
+            _animator = GetComponentInChildren<Animator>();
+        }
+        _originMoveSpeed = moveSpeed;
     }
 
     void Update()
     {
         if (_isMoving) return;
+        transform.position = currentNode.transform.position + offset;
+    }
 
-        // Align the current node's position when not moving
-        transform.position = Vector3.MoveTowards(transform.position, currentNode.transform.position + offset, 10 * Time.deltaTime);
+    public void SetMoveState(int state)
+    {
+        if (_animator != null)
+        {
+            _animator.SetInteger("MoveState", state);
+        }
+        if (state == 2 || state == 3)
+        {
+            moveSpeed = _originMoveSpeed / 2.5f;
+        }
+        else
+        {
+            moveSpeed = _originMoveSpeed;
+        }
     }
 
     public void MoveTo(Node target)
@@ -31,7 +53,7 @@ public class NodeMover : MonoBehaviour
 
         if (!nodeGraph.FindPath(currentNode, target, out List<Node> path))
         {
-            Debug.LogWarning("No valid path found.");
+            Debug.LogError("No valid path found.");
             return;
         }
 
@@ -45,8 +67,7 @@ public class NodeMover : MonoBehaviour
         List<Node> path = new() { direction };
         var prev = currentNode;
         var target = direction;
-        int i = 0;
-        while (target.neighbors.Count == 2 && i++ < _moveTowardBatch)
+        while (target.neighbors.Count == 2)
         {
             var next = target.neighbors[0] == prev ? target.neighbors[1] : target.neighbors[0];
             path.Add(next);
@@ -54,37 +75,47 @@ public class NodeMover : MonoBehaviour
             target = next;
         }
 
-        StartCoroutine(MoveAlongPath(path, true));
+        StartCoroutine(MoveAlongPath(path));
     }
 
-    private IEnumerator MoveAlongPath(List<Node> path, bool keepGoing = false)
+    private IEnumerator MoveAlongPath(List<Node> path)
     {
         _isMoving = true;
+        _animator.SetInteger("MoveState", 1);
 
         for (int i = 0; i < path.Count; i++)
         {
-            currentNode.Exit(this);
             Node nextNode = path[i];
-            yield return StartCoroutine(MoveToPosition(nextNode.transform.position));
+            if (nextNode == currentNode) continue;
+            if (nextNode == null || !currentNode.neighbors.Contains(nextNode))
+            {
+                Debug.LogWarning($"Invalid path segment detected: {currentNode.name} -> {nextNode?.name}");
+                _isMoving = false;
+                _animator.SetInteger("MoveState", 0);
+                yield break;
+            }
+            currentNode.Exit(this);
             currentNode = nextNode;
+            yield return StartCoroutine(MoveToPosition(nextNode.transform.position));
             currentNode.Enter(this);
         }
 
         _isMoving = false;
-
-        if (keepGoing && path[^1].neighbors.Count == 2)
-        {
-            var next = path[^1].neighbors[0] == path[^2] ? path[^1].neighbors[1] : path[^1].neighbors[0];
-            MoveTowardTo(next);
-        }
+        _animator.SetInteger("MoveState", 0);
     }
 
     private IEnumerator MoveToPosition(Vector3 pos)
     {
         pos += offset;
-        while (Vector3.Distance(transform.position, pos) > 0.01f)
+        while (Vector3.Distance(transform.position, pos) > 0.001f)
         {
             transform.position = Vector3.MoveTowards(transform.position, pos, moveSpeed * Time.deltaTime);
+            var direction = (transform.position - pos).normalized;
+            if (Vector3.ProjectOnPlane(direction, Vector3.up).magnitude > 0.001f)
+            {
+                direction.y = 0;
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), rotationSpeed * Time.deltaTime);
+            }
             yield return null;
         }
         transform.position = pos;

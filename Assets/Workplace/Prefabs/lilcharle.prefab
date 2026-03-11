@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3115669849893366229}
   - component: {fileID: 5649992257657833705}
+  - component: {fileID: 6818539378728577425}
   m_Layer: 0
   m_Name: lilcharle
   m_TagString: Untagged
@@ -80,9 +81,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a742b9cafa83ef41bbc29ea165badb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NodeMover
-  moveSpeed: 1
+  moveSpeed: 0.08
+  rotationSpeed: 5
   currentNode: {fileID: 0}
-  offset: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0.012, z: 0}
+--- !u!114 &6818539378728577425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66378148943688642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734419ab452185c44b5eb144f4d0eef1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharlieWaker
+  disableBeforeWake:
+  - {fileID: 4517205707441309674}
+  - {fileID: 379505499098009509}
+  - {fileID: 882044554172190064}
+  - {fileID: 7036834901402979279}
 --- !u!1 &379505499098009509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,7 +1205,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5688351018127176443
 Transform:
   m_ObjectHideFlags: 0
