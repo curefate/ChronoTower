@@ -5,12 +5,20 @@ public class DialPointerRotator : MonoBehaviour
 {
     [Header("Dial Settings")]
     public Transform dialNeedle;                // 你的表针 transform
-    public Vector3 rotationAxis = Vector3.forward; // 绕哪个轴旋转（例如表针绕Z轴旋转）
     public Transform dialCenter;                // 表盘中心点 (表针旋转中心)
+
+    [Header("Rotation Settings")]
+    [SerializeField]
+    [Tooltip("旋转轴方向 (在 dialNeedle 的局部空间中)")]
+    private Vector3 rotationAxis = Vector3.up;  // 默认为 Y 轴 (0, 1, 0)
+
+    [SerializeField]
+    [Tooltip("旋转方向系数 (1 = 正向, -1 = 反向)")]
+    private float rotationDirection = -1f;       // 旋转方向，可以是 1 或 -1
 
     private bool isDragging = false;            // 是否正在拖动
     private float startAngle;                   // 初始角度
-    private float baseDialAngle;                // 表针开始拖动时的角度偏移
+    private Quaternion startDialRotation;       // 表针开始拖动时的旋转
 
     /// <summary>
     /// PointerEventWrapper 的 WhenSelect / WhenUnselect 绑定到这两个方法
@@ -24,7 +32,9 @@ public class DialPointerRotator : MonoBehaviour
 
         // 转换到表盘平面的角度
         startAngle = GetAngleOnDial(fingerPos);
-        baseDialAngle = dialNeedle.localEulerAngles.z;
+        
+        // 保存表针当前的旋转（使用四元数避免欧拉角问题）
+        startDialRotation = dialNeedle.localRotation;
     }
 
     public void OnPointerUp(PointerEvent evt)
@@ -44,10 +54,12 @@ public class DialPointerRotator : MonoBehaviour
         float currentAngle = GetAngleOnDial(fingerPos);
         float delta = Mathf.DeltaAngle(startAngle, currentAngle);
 
-        float newAngle = baseDialAngle + delta;
+        // 应用旋转方向系数
+        float rotationDelta = delta * rotationDirection;
 
-        // 这里假设表针是绕 Z 轴旋转
-        dialNeedle.localRotation = Quaternion.Euler(0, 0, newAngle);
+        // 基于初始旋转应用增量旋转（使用四元数避免欧拉角问题）
+        Quaternion deltaRotation = Quaternion.AngleAxis(rotationDelta, rotationAxis);
+        dialNeedle.localRotation = startDialRotation * deltaRotation;
     }
 
     /// <summary>
@@ -57,10 +69,10 @@ public class DialPointerRotator : MonoBehaviour
     {
         Vector3 dir = fingerWorldPos - dialCenter.position;
 
-        // 将方向转换到 dialCenter 的本地空间，使得旋转轴统一为 Z
+        // 将方向转换到 dialCenter 的本地空间，使得旋转轴统一为 Y轴
         Vector3 localDir = dialCenter.InverseTransformDirection(dir);
 
-        float angle = Mathf.Atan2(localDir.y, localDir.x) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(localDir.z, localDir.x) * Mathf.Rad2Deg;
         return angle;
     }
 }
