@@ -9,8 +9,8 @@ public class PasswordPanel : MonoBehaviour
     public List<Transform> buttons;
 
     // Animation Values
-    public float pressAngle = -45f;
-    public float animationSpeed = 8f;
+    public float pressAngle = 25f;
+    public float animationSpeed = 4f;
 
     // AudioSource
     public AudioSource audioSource;
@@ -58,7 +58,7 @@ public class PasswordPanel : MonoBehaviour
     // Example: SetPressed(3) presses the 4th button.
     public void SetPressed(int index)
     {
-        Debug.Log("Button pressed: "+index);
+        Debug.Log("Button Animated: "+index);
         
         // Safety check to prevent invalid index access
         if (index < 0 || index >= buttons.Count) return;
@@ -73,7 +73,7 @@ public class PasswordPanel : MonoBehaviour
         pressedState[button] = true;
 
         // Calculate the target rotation
-        Quaternion targetRot = originalRotations[button] * Quaternion.Euler(pressAngle, 0, 0);
+        Quaternion targetRot = originalRotations[button] * Quaternion.Euler(0, 0, pressAngle);
 
         // Start the animation coroutine
         StartCoroutine(RotateButton(button, targetRot));
