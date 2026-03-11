@@ -1,6 +1,7 @@
 using Oculus.Interaction;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DialPointerRotator : MonoBehaviour
 {
@@ -17,9 +18,9 @@ public class DialPointerRotator : MonoBehaviour
     [Tooltip("旋转方向系数 (1 = 正向, -1 = 反向)")]
     private float rotationDirection = -1f;       // 旋转方向，可以是 1 或 -1
 
-    [Header("Auto Complete Settings")]
+    /* [Header("Auto Complete Settings")]
     [SerializeField]
-    [Tooltip("是否启用自动补全功能")]
+    [Tooltip("是否启用自动补全功能")] */
     private bool enableAutoComplete = true;
 
     [SerializeField]
@@ -34,9 +35,9 @@ public class DialPointerRotator : MonoBehaviour
     [Tooltip("自动补全旋转的速度（度/秒）")]
     private float autoCompleteSpeed = 180f;
 
-    [Header("Spring Back Settings")]
+    /* [Header("Spring Back Settings")]
     [SerializeField]
-    [Tooltip("是否启用回弹功能（未达到阈值时回到起始位置）")]
+    [Tooltip("是否启用回弹功能（未达到阈值时回到起始位置）")] */
     private bool enableSpringBack = false;
 
     [SerializeField]
@@ -46,6 +47,15 @@ public class DialPointerRotator : MonoBehaviour
     [SerializeField]
     [Tooltip("回弹速度（度/秒）")]
     private float springBackSpeed = 360f;
+
+    [Header("Events")]
+    [SerializeField]
+    [Tooltip("顺时针自动补全时触发")]
+    private UnityEvent OnClockwise;
+
+    [SerializeField]
+    [Tooltip("逆时针自动补全时触发")]
+    private UnityEvent OnCounterClockwise;
 
     private bool isDragging = false;            // 是否正在拖动
     private float startAngle;                   // 初始角度
@@ -73,7 +83,7 @@ public class DialPointerRotator : MonoBehaviour
 
         // 转换到表盘平面的角度
         startAngle = GetAngleOnDial(fingerPos);
-        
+
         // 保存表针当前的旋转（使用四元数避免欧拉角问题）
         startDialRotation = dialNeedle.localRotation;
     }
@@ -90,13 +100,27 @@ public class DialPointerRotator : MonoBehaviour
         }
 
         float absRotation = Mathf.Abs(normalizedRotation);
-        
+
         // 判断是否触发自动补全或回弹
         if (enableAutoComplete && absRotation >= autoCompleteThreshold && absRotation < autoCompleteTargetAngle)
         {
             // 自动补全到目标角度
             float remainingRotation = (autoCompleteTargetAngle - absRotation) * Mathf.Sign(normalizedRotation);
             autoRotationCoroutine = StartCoroutine(AutoRotateToTarget(remainingRotation, autoCompleteSpeed));
+
+            // 根据旋转方向触发对应的事件
+            // 注意：需要考虑 rotationDirection 参数来判断实际的旋转方向
+            float actualRotationDirection = normalizedRotation * rotationDirection;
+            if (actualRotationDirection > 0)
+            {
+                // 顺时针旋转
+                OnClockwise?.Invoke();
+            }
+            else if (actualRotationDirection < 0)
+            {
+                // 逆时针旋转
+                OnCounterClockwise?.Invoke();
+            }
         }
         else if (enableSpringBack && absRotation > springBackMinRotation && absRotation < autoCompleteThreshold)
         {
@@ -139,19 +163,19 @@ public class DialPointerRotator : MonoBehaviour
         float rotated = 0f;
         float absTarget = Mathf.Abs(targetRotation);
         float direction = Mathf.Sign(targetRotation);
-        
+
         while (rotated < absTarget)
         {
             float step = speed * Time.deltaTime;
             rotated = Mathf.Min(rotated + step, absTarget);
-            
+
             float currentRotation = rotated * direction * rotationDirection;
             Quaternion deltaRotation = Quaternion.AngleAxis(currentRotation, rotationAxis);
             dialNeedle.localRotation = startRot * deltaRotation;
-            
+
             yield return null;
         }
-        
+
         autoRotationCoroutine = null;
     }
 

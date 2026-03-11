@@ -12,8 +12,12 @@ public class FollowRotation : MonoBehaviour
     
     [Header("Rotation Settings")]
     [SerializeField]
-    [Tooltip("旋转轴方向（在局部空间中）")]
-    private Vector3 rotationAxis = Vector3.up;  // 默认为 Y 轴 (0, 1, 0)
+    [Tooltip("目标物体的旋转轴方向（在目标的局部空间中）")]
+    private Vector3 targetRotationAxis = Vector3.up;  // 默认为 Y 轴 (0, 1, 0)
+    
+    [SerializeField]
+    [Tooltip("自身的旋转轴方向（在自身的局部空间中）")]
+    private Vector3 selfRotationAxis = Vector3.up;  // 默认为 Y 轴 (0, 1, 0)
     
     [SerializeField]
     [Tooltip("旋转比例（1 = 同步，0.5 = 半速，2 = 双速，60 = 秒针比分针快60倍）")]
@@ -41,6 +45,8 @@ public class FollowRotation : MonoBehaviour
     
     private Quaternion initialSelfRotation;     // 自身的初始旋转
     private Quaternion initialTargetRotation;   // 目标的初始旋转
+    private Quaternion previousTargetRotation;  // 上一帧的目标旋转
+    private float accumulatedAngle = 0f;        // 累积的旋转角度（支持多圈）
     private bool initialized = false;           // 是否已初始化
 
     void Start()
@@ -85,6 +91,8 @@ public class FollowRotation : MonoBehaviour
 
         initialTargetRotation = targetTransform.localRotation;
         initialSelfRotation = transform.localRotation;
+        previousTargetRotation = targetTransform.localRotation;
+        accumulatedAngle = 0f;
         initialized = true;
 
         // 如果需要同步初始旋转
@@ -102,24 +110,56 @@ public class FollowRotation : MonoBehaviour
         if (!initialized || targetTransform == null)
             return;
 
-        // 计算目标相对于初始状态的旋转变化
-        Quaternion targetDelta = targetTransform.localRotation * Quaternion.Inverse(initialTargetRotation);
+        // 计算目标从上一帧到当前帧的旋转变化（增量）
+        Quaternion deltaRotation = targetTransform.localRotation * Quaternion.Inverse(previousTargetRotation);
         
-        // 提取旋转角度和轴向
-        float angle;
-        Vector3 axis;
-        targetDelta.ToAngleAxis(out angle, out axis);
+        // 从目标的旋转中提取绕目标旋转轴的角度
+        float deltaAngle = GetAngleAroundAxis(deltaRotation, targetRotationAxis);
         
-        // 归一化角度到 -180 到 180 范围
-        if (angle > 180f)
-            angle -= 360f;
+        // 累积角度（支持超过360度的多圈旋转）
+        accumulatedAngle += deltaAngle;
         
         // 应用旋转比例和方向
-        float adjustedAngle = angle * rotationRatio * rotationDirection;
+        float adjustedAngle = accumulatedAngle * rotationRatio * rotationDirection;
         
-        // 基于初始旋转应用调整后的旋转
-        Quaternion adjustedRotation = Quaternion.AngleAxis(adjustedAngle, rotationAxis);
+        // 基于初始旋转，绕自身旋转轴应用调整后的旋转（避免四元数累积误差）
+        Quaternion adjustedRotation = Quaternion.AngleAxis(adjustedAngle, selfRotationAxis);
         transform.localRotation = initialSelfRotation * adjustedRotation;
+        
+        // 更新记录
+        previousTargetRotation = targetTransform.localRotation;
+    }
+
+    /// <summary>
+    /// 获取四元数绕指定轴的旋转角度（支持超过180度）
+    /// </summary>
+    /// <param name="rotation">要分析的旋转四元数</param>
+    /// <param name="axis">旋转轴</param>
+    /// <returns>绕指定轴的旋转角度（-180到180度）</returns>
+    private float GetAngleAroundAxis(Quaternion rotation, Vector3 axis)
+    {
+        // 选择一个垂直于旋转轴的参考向量
+        Vector3 forward = Vector3.forward;
+        Vector3 perpendicular = Vector3.Cross(axis, forward);
+        
+        // 如果轴与forward平行，使用另一个向量
+        if (perpendicular.sqrMagnitude < 0.001f)
+        {
+            perpendicular = Vector3.Cross(axis, Vector3.up);
+        }
+        perpendicular.Normalize();
+        
+        // 旋转这个垂直向量
+        Vector3 rotatedPerpendicular = rotation * perpendicular;
+        
+        // 投影到垂直于轴的平面上
+        Vector3 projectedOriginal = Vector3.ProjectOnPlane(perpendicular, axis).normalized;
+        Vector3 projectedRotated = Vector3.ProjectOnPlane(rotatedPerpendicular, axis).normalized;
+        
+        // 计算有符号角度（使用SignedAngle可以正确处理超过180度的情况）
+        float angle = Vector3.SignedAngle(projectedOriginal, projectedRotated, axis);
+        
+        return angle;
     }
 
     /// <summary>
@@ -129,7 +169,9 @@ public class FollowRotation : MonoBehaviour
     {
         if (initialized)
         {
+            accumulatedAngle = 0f;
             transform.localRotation = initialSelfRotation;
+            previousTargetRotation = initialTargetRotation;
         }
     }
 
@@ -150,14 +192,27 @@ public class FollowRotation : MonoBehaviour
         Initialize();
     }
 
+    /// <summary>
+    /// 获取当前累积的旋转角度（可用于调试）
+    /// </summary>
+    public float GetAccumulatedAngle()
+    {
+        return accumulatedAngle;
+    }
+
     // 编辑器中实时预览（仅在编辑模式下）
     #if UNITY_EDITOR
     private void OnValidate()
     {
         // 确保旋转轴被归一化
-        if (rotationAxis != Vector3.zero)
+        if (targetRotationAxis != Vector3.zero)
         {
-            rotationAxis = rotationAxis.normalized;
+            targetRotationAxis = targetRotationAxis.normalized;
+        }
+        
+        if (selfRotationAxis != Vector3.zero)
+        {
+            selfRotationAxis = selfRotationAxis.normalized;
         }
     }
     #endif
