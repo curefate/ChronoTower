@@ -114,33 +114,22 @@ You also need to install the following dependencies or libraries for your projec
 - Library B - a C# wrapper for speech recognition and synthesis
 
 ## Usage
-
-[_Usage section showing how to use your project and interact with its features. You can use examples, screenshots, gifs, or videos to demonstrate the user interface, controls, and feedback of your project. You can also provide tips, tricks, or best practices for using your project effectively._]
-
 To use ChronoTower and interact with its features, follow the guidelines below:
 
-- To move around, use the touchpad or the joystick on your controller, or swipe on your phone screen.
-- To select ...a planet or a moon, point at it with your controller or your phone, or gaze at it with your headset.
-- To zoom in or out, use the trigger or the button on your controller, or pinch on your phone screen.
-- To access the information panel, press...
-- To use voice commands, say "OK" followed by one of the following phrases:
-  - "Show me [X]" - to show X element
-  - "Close window Y" - to close window Y
+- To move around, use your finger to push Lil Charlie in the desired direction.
+- To drag a platform, pinch the handles and pull.
+- To drag the bridge, pinch the handle and pull upwards.
+- To forward or reverse time, look at the watch on your wrist and use your finger of your opposite hand to rotate the clock clockwise or counterclockwise.
+- To enter a password, poke the buttons on the password panel.
+- To see inside the tower from a different direction, walk around the tower to change your perspective.
   
-Some tips, tricks, and best practices for using [Your App XR} effectively:
-
-- Tip 1
-- Tip 2
-
   
 ## References
+Music:
 
-Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
 
 ## Contributors
 
-Fernando Valcazara
-Li Zijie
-Tan Ju Wei Audrie
-
-contact information, and links to their websites or portfolios.
+Fernando Valcazara: fernandovalcazara@gmail.com
+Li Zijie: curefate@outlook.com
+Tan Ju Wei Audrie: audiwei123@gmail.com
