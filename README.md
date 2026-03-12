@@ -85,6 +85,16 @@ Link: **FILL THIS INNNN**
 
 ## Digital Implementation
 
+
+The project adopts a low-poly paper-toy inspired visual style, with bases on a steampunk aesthetic for the visual story telling. This choice supports both the playful narrative tone and the technical constraints of standalone mixed reality hardware, allowing the tower and its mechanisms to remain readable and performant while maintaining a handcrafted toy-like aesthetic.
+
+The development workflow combines several tools:
+Blender 5.0.1: Creation of all 3D models and environment assets
+Adobe Illustrator: 2D graphic assets and visual textures
+Unity 6: Implementation of gameplay system, mixed reality interaction, and scene assembly
+Together these tools support a pipeline where stylized assets are modeled externally and assembled into an interactive MR puzzle environment inside Unity.
+
+
 !! how was this built technically eg. unity and blender etc
 
 ## Installation
