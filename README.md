@@ -37,37 +37,53 @@ To communicate the concept more clearly within the team, we created an early vis
 Assets: 
 <br>
 
-V2: 
-<br>
-<img width="510" height="197" alt="v2" src="https://github.com/user-attachments/assets/aee33c26-b87e-4058-a576-de3dcc0d5661" />
+<table>
+<tr>
+<td align="center">
 
-V3: 
-<br>
-<img width="510" height="680" alt="v3" src="https://github.com/user-attachments/assets/062ba130-eb46-4b8f-b93c-cdf5d44caca0" />
-<br> 
+<b>V2</b><br>
+<img src="https://github.com/user-attachments/assets/aee33c26-b87e-4058-a576-de3dcc0d5661" width="350">
 
-V4:
-<br> 
-<img width="513" height="724" alt="v4" src="https://github.com/user-attachments/assets/a85b879b-55c8-4799-98a4-c9ab9d460ab5" />
+</td>
+<td align="center">
 
-<br> 
-V5:
-<br> 
-<img width="580" height="920" alt="front_top" src="https://github.com/user-attachments/assets/69a300ae-f573-4986-94a4-ab598cdf876d" />
+<b>V3</b><br>
+<img src="https://github.com/user-attachments/assets/062ba130-eb46-4b8f-b93c-cdf5d44caca0" width="350">
 
+</td>
+</tr>
 
+<tr>
+<td align="center">
 
-Wireframe: <br>
-V3:
-<br>
-<img width="511" height="737" alt="v3_wireframe" src="https://github.com/user-attachments/assets/0abd3387-10a5-45e3-8484-297199bdc2fa" />
+<b>V4</b><br>
+<img src="https://github.com/user-attachments/assets/a85b879b-55c8-4799-98a4-c9ab9d460ab5" width="350">
 
-<br>
-V5:
-<br>
-<img width="527" height="747" alt="v5_wireframe" src="https://github.com/user-attachments/assets/5d267d46-676a-4289-bb15-6b43d5255607" />
+</td>
+<td align="center">
 
+<b>V5</b><br>
+<img src="https://github.com/user-attachments/assets/69a300ae-f573-4986-94a4-ab598cdf876d" width="350">
 
+</td>
+</tr>
+</table>
+
+<b>Wireframes</b>
+
+<table>
+<tr>
+<td align="center">
+<b>V3</b><br>
+<img src="https://github.com/user-attachments/assets/0abd3387-10a5-45e3-8484-297199bdc2fa" width="350">
+</td>
+
+<td align="center">
+<b>V5</b><br>
+<img src="https://github.com/user-attachments/assets/5d267d46-676a-4289-bb15-6b43d5255607" width="350">
+</td>
+</tr>
+</table>
 
 **User Research and Testing**
 
