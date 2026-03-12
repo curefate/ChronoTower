@@ -34,26 +34,53 @@ To communicate the concept more clearly within the team, we created an early vis
 
 **Wireframes and Prototypes**
 
-Assets:
-V1
+Assets: 
+<br>
 
-V5
+V2: 
+<br>
+<img width="510" height="197" alt="v2" src="https://github.com/user-attachments/assets/aee33c26-b87e-4058-a576-de3dcc0d5661" />
+
+V3: 
+<br>
+<img width="510" height="680" alt="v3" src="https://github.com/user-attachments/assets/062ba130-eb46-4b8f-b93c-cdf5d44caca0" />
+<br> 
+
+V4:
+<br> 
+<img width="513" height="724" alt="v4" src="https://github.com/user-attachments/assets/a85b879b-55c8-4799-98a4-c9ab9d460ab5" />
+
+<br> 
+V5:
+<br> 
+<img width="580" height="920" alt="front_top" src="https://github.com/user-attachments/assets/69a300ae-f573-4986-94a4-ab598cdf876d" />
 
 
-Prototype:
-V1
 
+Wireframe: <br>
+V3:
+<br>
+<img width="511" height="737" alt="v3_wireframe" src="https://github.com/user-attachments/assets/0abd3387-10a5-45e3-8484-297199bdc2fa" />
 
-V??
+<br>
+V5:
+<br>
+<img width="527" height="747" alt="v5_wireframe" src="https://github.com/user-attachments/assets/5d267d46-676a-4289-bb15-6b43d5255607" />
 
 
 
 **User Research and Testing**
 
+In the beginning of our project, we talked to many people and found out that many people enjoy puzzle-based games, particularly those that are intellectually stimulating but not overly difficult. Based on this insight, the goal was to design puzzles that challenge players while remaining approachable and intuitive.
 
+After creating our workable prototype, we conducted informal user testing sessions to evaluate the gameplay experience and interaction design of ChronoTower. 
 
+During testing, participants were tasked to play the game, and interacted with the mixed reality tower using hand gestures to move bridges, rotate bridges, and manipulate puzzle elements. After completing the experience, participants were asked to provide feedback on the clarity of the interactions and overall gameplay.
 
+The feedback indicated that players generally enjoyed the puzzle mechanics and found the experience engaging. However, several participants mentioned that more guidance was needed at the beginning of the experience, as some interactions were not immediately obvious. In particular, players sometimes struggled to identify which objects were interactive.
+Based on this feedback, we improved the design by introducing clearer visual signifiers such as colored handles. We also recognised the importance of providing clearer instructions or a short briefing at the start of the experience to help players understand the core mechanics before attempting the puzzles.
 
+These testing sessions helped refine the interaction design and ensured that the puzzles remained engaging while still being accessible to new players.
 
 
 ## System description
