@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class ButtonRotator : MonoBehaviour
 {
-    private const float Degree = 25f;
-    private const float Speed = 3f;
+    private const float Degree = 10;
+    private const float Speed = 100f;
 
     private float _originalRotationZ;
     private Coroutine _rotationCoroutine;
@@ -34,6 +34,7 @@ public class ButtonRotator : MonoBehaviour
 
     private IEnumerator RotateMe(float targetDegree)
     {
+        Debug.Log($"Rotating to {targetDegree} degrees");
         var currentRotationZ = transform.localEulerAngles.z;
         while (Mathf.Abs(currentRotationZ - targetDegree) > 0.01f)
         {

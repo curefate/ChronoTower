@@ -1,3 +1,4 @@
+using System.Collections;
 using Oculus.Interaction;
 using UnityEngine;
 
@@ -14,6 +15,7 @@ public class PassCodeButton : MonoBehaviour
 
     private PassCodePanel passCodePanel;
     private Vector3 originalVisualPosition;
+    private Coroutine recoilCoroutine;
 
     private void Start()
     {
@@ -37,7 +39,11 @@ public class PassCodeButton : MonoBehaviour
         {
             isPressed = false;
             pokeInteractableVisual.enabled = true;
-            buttonVisual.transform.localPosition = originalVisualPosition;
+            if (recoilCoroutine != null)
+            {
+                StopCoroutine(recoilCoroutine);
+            }
+            recoilCoroutine = StartCoroutine(Recoil(.5f, originalVisualPosition));
             buttonRotator.ResetRotation();
             passCodePanel.ReleaseButton(isCorrect);
             Debug.Log("Button Released: " + gameObject.name);
@@ -47,7 +53,7 @@ public class PassCodeButton : MonoBehaviour
         {
             isPressed = true;
             pokeInteractableVisual.enabled = false;
-            buttonVisual.transform.localPosition = originalVisualPosition / 2;
+            buttonVisual.transform.localPosition = Vector3.zero;
             buttonRotator.Rotate();
             passCodePanel.PressButton(isCorrect);
             Debug.Log("Button Pressed: " + gameObject.name);
@@ -60,5 +66,20 @@ public class PassCodeButton : MonoBehaviour
         pokeInteractableVisual.enabled = true;
         buttonVisual.transform.localPosition = originalVisualPosition;
         buttonRotator.ResetRotation();
+    }
+
+    private IEnumerator Recoil(float duration, Vector3 recoilPosition)
+    {
+        float elapsed = 0f;
+        Vector3 startingPosition = buttonVisual.transform.localPosition;
+
+        while (elapsed < duration)
+        {
+            buttonVisual.transform.localPosition = Vector3.Lerp(startingPosition, recoilPosition, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        buttonVisual.transform.localPosition = recoilPosition;
     }
 }
