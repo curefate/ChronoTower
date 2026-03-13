@@ -90,12 +90,14 @@ Assets:
 
 <b>V2</b><br>
 <img src="https://github.com/user-attachments/assets/aee33c26-b87e-4058-a576-de3dcc0d5661" width="350">
+<p>Initial sketches to align puzzle piecesd with the team</p>
 
 </td>
 <td align="center">
 
 <b>V3</b><br>
 <img src="https://github.com/user-attachments/assets/062ba130-eb46-4b8f-b93c-cdf5d44caca0" width="350">
+<p>Full sketch of the entire ChronoTower (low-fi prototype)</p>
 
 </td>
 </tr>
@@ -105,12 +107,14 @@ Assets:
 
 <b>V4</b><br>
 <img src="https://github.com/user-attachments/assets/a85b879b-55c8-4799-98a4-c9ab9d460ab5" width="350">
+<p>Finalised levels with basic colour details and outer design (mid-fi prototype)</p>
 
 </td>
 <td align="center">
 
 <b>V5</b><br>
 <img src="https://github.com/user-attachments/assets/69a300ae-f573-4986-94a4-ab598cdf876d" width="350">
+<p>Finalised levels with colour details and outer design (high-fi prototype)</p>
 
 </td>
 </tr>
