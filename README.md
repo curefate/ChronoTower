@@ -179,6 +179,9 @@ Link:
 
 ### Tangible interactions
 
+1. Tangible watch
+2. Restart Button
+
 
 ## Digital Implementation
 
