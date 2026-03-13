@@ -154,7 +154,7 @@ These testing sessions helped refine the interaction design and ensured that the
 
 ## System description
 
-### Features & Functionalities
+### Game Features & Functionalities
 
 ChronoTower includes several interactive features designed to showcase the potential of mixed reality for puzzle gameplay.
 
@@ -176,6 +176,9 @@ The final door at the top of the tower is protected by a lock mechanism that req
 **Watch the demo video or try the live version.**
 
 Link: 
+
+##Tangible interactions
+
 
 ## Digital Implementation
 
