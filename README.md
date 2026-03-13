@@ -1,8 +1,8 @@
 ## Introduction
 
-ChronoTower is a mixed-reality puzzle game where players help a small robot named Lil Charlie repair a broken clock tower by solving spatial and time-based puzzles.
+ChronoTower is a mixed-reality puzzle game where players help a small robot named Lil Charlie repair a broken clock tower by solving spatial, and intellectual puzzles.
 
-The experience takes place on a tabletop Mixed reality environment, where players interact with a miniature clock tower using hand gestures such as grabbing, poking, and rotating objects. Combining elements of perspective puzzles, time manipulation, and rotating environments, players guide Lil Charlie through multiple floors of the tower until reaching the top to repair the broken mechanism.
+The experience takes place on a tabletop Mixed reality environment, where players interact with a miniature clock tower using hand gestures such as grabbing, poking, and rotating objects. Combining elements of perspective puzzles, time manipulation, and dragging platforms, players guide Lil Charlie through multiple floors of the tower until reaching the top to repair the broken mechanism.
 
 **The problem:** After discussing with the team and talking to some friends, we realised that many people crave intellectual puzzles, but many traditional puzzle games are usually experienced on flat screens and can limit the player's physical interaction with the environment.
 
@@ -172,6 +172,8 @@ The final door at the top of the tower is protected by a lock mechanism that req
 Link: 
 
 ## Digital Implementation
+
+Chrono Tower is designed as a table-scale Mixed Reality puzzle experience where a large clock tower suddenly appears in the player's real environment. The intention behind this design is to create an immediate “wow” moment, where a massive structure emerges inside the real room or tabletop space. By allowing the player to physically move around the tower, and manipulate its mechanisms with their hands, the experience creates the feeling of having god-like control over a miniature world.
 
 The project adopts a low-poly paper-toy inspired visual style, with bases on a steampunk aesthetic for the visual story telling. This choice supports both the playful narrative tone and the technical constraints of standalone mixed reality hardware, allowing the tower and its mechanisms to remain readable and performant while maintaining a handcrafted toy-like aesthetic.
 
