@@ -180,7 +180,10 @@ Link:
 ### Tangible interactions
 
 1. Tangible watch
-2. Restart Button
+2. Start Button
+3. Restart Button
+4. Forward time button
+5. Rewind time button
 
 
 ## Digital Implementation
