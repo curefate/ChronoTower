@@ -37,7 +37,7 @@ public class PasswordPanel : MonoBehaviour
     // For testing only
     void Update()
     {
-        if (Keyboard.current.digit1Key.wasPressedThisFrame) SetPressed(0);
+        /* if (Keyboard.current.digit1Key.wasPressedThisFrame) SetPressed(0);
         if (Keyboard.current.digit2Key.wasPressedThisFrame) SetPressed(1);
         if (Keyboard.current.digit3Key.wasPressedThisFrame) SetPressed(2);
         if (Keyboard.current.digit4Key.wasPressedThisFrame) SetPressed(3);
@@ -47,7 +47,7 @@ public class PasswordPanel : MonoBehaviour
         if (Keyboard.current.digit8Key.wasPressedThisFrame) SetPressed(7);
         if (Keyboard.current.digit9Key.wasPressedThisFrame) SetPressed(8);
 
-        if (Keyboard.current.rKey.wasPressedThisFrame) ResetPanel();
+        if (Keyboard.current.rKey.wasPressedThisFrame) ResetPanel(); */
     }
 
     public void SetPressed(int index)

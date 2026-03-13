@@ -21,6 +21,7 @@ public class CharleAvoidFall : MonoBehaviour, ITimeListener
         if (charle.currentNode == node)
         {
             charle.MoveTo(node.neighbors[Random.Range(0, node.neighbors.Count)]);
+            charle.GetComponent<Animator>().SetTrigger("Jump");
         }
     }
 
