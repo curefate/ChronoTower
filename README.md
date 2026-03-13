@@ -10,8 +10,6 @@ The experience takes place on a tabletop Mixed reality environment, where player
 
 ## Design Process
 
-[_Add evidence on the general overview of how you planned, designed, and developed your project, including the goals, challenges, and solutions._]
-
 **Brainstorming**
  
 <table>
@@ -61,6 +59,24 @@ To communicate the concept more clearly within the team, we created an early vis
 <img width="1008" height="563" alt="Screenshot 2026-03-09 at 2 21 24 AM" src="https://github.com/user-attachments/assets/aa55c007-dd83-4702-abea-73affcec3d43" />
 
 **User Journey**
+
+1. Discovery
+The player approaches the setup and sees a table where a miniature clock tower appears in mixed reality. If presented in a demo setting, a short briefing is given to introduce the experience and explain the goal of helping Lil Charlie repair the tower. Curious about the interactive environment, the player begins exploring the tower from different angles.
+
+2. Introduction
+A short introduction explains that the clock tower is broken and that the player must help Lil Charlie repair it. The player learns basic interactions such as grabbing objects and moving Lil Charlie.
+
+3. Exploration
+The player starts interacting with the tower by rotating bridges, moving platforms, and experimenting with the environment. Walking around the table allows them to view puzzles from different perspectives.
+
+4. Puzzle Solving
+As the player progresses through the tower floors, they encounter more complex puzzles. They must use mechanics such as time manipulation, rotating structures, and environmental clues to guide Lil Charlie forward.
+
+5. Completion
+After solving the final puzzle code, Lil Charlie will replace the broken gear and restore the clock tower.
+Outcome
+The tower begins working again, giving the player a sense of accomplishment for successfully solving the puzzles and repairing the tower.
+
 
 
 **Wireframes and Prototypes**
@@ -134,8 +150,6 @@ These testing sessions helped refine the interaction design and ensured that the
 
 ### Features & Functionalities
 
-[_Features and functionalities of your project. You can use bullet points, screenshots, gifs, or videos to illustrate your points. Also include a link to a demo or a live version of your project._]
-
 ChronoTower includes several interactive features designed to showcase the potential of mixed reality for puzzle gameplay.
 
 **Immersive Tabletop Mixed Reality Environment**
@@ -155,10 +169,9 @@ The final door at the top of the tower is protected by a lock mechanism that req
 
 **Watch the demo video or try the live version.**
 
-Link: **FILL THIS INNNN**
+Link: 
 
 ## Digital Implementation
-
 
 The project adopts a low-poly paper-toy inspired visual style, with bases on a steampunk aesthetic for the visual story telling. This choice supports both the playful narrative tone and the technical constraints of standalone mixed reality hardware, allowing the tower and its mechanisms to remain readable and performant while maintaining a handcrafted toy-like aesthetic.
 
