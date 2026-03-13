@@ -181,24 +181,23 @@ Adobe Illustrator: 2D graphic assets and visual textures
 Unity 6: Implementation of gameplay system, mixed reality interaction, and scene assembly
 Together these tools support a pipeline where stylized assets are modeled externally and assembled into an interactive MR puzzle environment inside Unity.
 
-
-!! how was this built technically eg. unity and blender etc
+The project's implementation relies on the Meta SDK. Specifically, the interaction implementation depends on the Meta XR Interaction SDK. PathAlignTransformer implements an ITransformer interface to control the trajectory of dragged objects and performs transform based on interpolation of the distance between set points. The mixed reality implementation relies on the Meta MR Utility Kit, utilizing its built-in Passthrough and Occlusion functions and calling the Scene API to get the position of real table.
 
 ## Installation
 
-[_Installation process to build and run your project. Use code blocks, tables, or lists to show the commands, steps, or requirements the chosen platform. Mention any dependencies or libraries that your project uses and how to install them._]
+Requirements:
+- Meta Quest 3, Meta Quest 3s or Meta Quest pro.
+- Allow the use of spatial data.
+- Allow the use of [experimental features](https://developers.meta.com/horizon/documentation/native/android/mobile-experimental-features).
 
-To install and run ChronoTower on your platform or device, follow the instructions below:
-
-| Platform | Device | Requirements | Commands |
-| -------- | ------ | ------------ | -------- |
-| Windows  | Meta Quest   | Unity 2022.3 or higher, Arduino | `git clone https://github.com/user/repo.git`<br>`cd project-xr`<br>`open MainScene.unity`<br>`Build and Run` |
-| Android  | Phone  | Android 19 or higher, ARCore 1.18 or higher | `git clone https://github.com/user/repo.git`<br>`cd solar-system-xr`<br>`open SolarSystemXR.unity`<br>`switch platform to Android`<br>`build and run` |
-
-You also need to install the following dependencies or libraries for your project:
-
-- Library A - a Unity plugin for building VR and AR experiences
-- Library B - a C# wrapper for speech recognition and synthesis
+To get the game:
+- Download the released .apk from [github](https://github.com/curefate/ChronoTower).
+- Clone source code from repository and build apk youself:
+    1. `git clone https://github.com/curefate/ChronoTower`
+    2. Open project in Unity 6000.3.0f1+.
+    3. Switch platform to Android.
+    4. Build.
+- > Download from Meta Store TODO
 
 ## Usage
 To use ChronoTower and interact with its features, follow the guidelines below:
