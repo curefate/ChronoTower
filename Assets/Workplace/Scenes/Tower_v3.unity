@@ -14012,6 +14012,7 @@ GameObject:
   - component: {fileID: 7613849118728245215}
   - component: {fileID: 4746070396785017006}
   - component: {fileID: 8999930647587771329}
+  - component: {fileID: 8999930647587771330}
   m_Layer: 0
   m_Name: GearSmall.035
   m_TagString: Untagged
@@ -14185,6 +14186,7 @@ GameObject:
   - component: {fileID: 3282291072881062613}
   - component: {fileID: 7977018855691202560}
   - component: {fileID: 5903078595913680896}
+  - component: {fileID: 7977018855691202561}
   m_Layer: 0
   m_Name: GearSmall.004
   m_TagString: Untagged
@@ -14430,6 +14432,7 @@ GameObject:
   - component: {fileID: 8069264497758707816}
   - component: {fileID: 1200902672186401919}
   - component: {fileID: 3341645541271489131}
+  - component: {fileID: 8069264497758707817}
   m_Layer: 0
   m_Name: Gear.025
   m_TagString: Untagged
@@ -14513,6 +14516,7 @@ GameObject:
   - component: {fileID: 2902682409779156372}
   - component: {fileID: 6783099210429936642}
   - component: {fileID: 4655101008426579293}
+  - component: {fileID: 6783099210429936643}
   m_Layer: 0
   m_Name: Gear.011
   m_TagString: Untagged
@@ -14718,6 +14722,7 @@ GameObject:
   - component: {fileID: 824614029809744147}
   - component: {fileID: 6337765264922358900}
   - component: {fileID: 8079559978163341531}
+  - component: {fileID: 8079559978163341532}
   m_Layer: 0
   m_Name: GearSmall.046
   m_TagString: Untagged
@@ -14736,6 +14741,7 @@ GameObject:
   - component: {fileID: 9082920064825964411}
   - component: {fileID: 4490790075110671596}
   - component: {fileID: 1841868984092127190}
+  - component: {fileID: 9082920064825964412}
   m_Layer: 0
   m_Name: GearSmall.055
   m_TagString: Untagged
@@ -15085,6 +15091,7 @@ GameObject:
   - component: {fileID: 6737244674630906044}
   - component: {fileID: 5431307512427429163}
   - component: {fileID: 8865100012085928056}
+  - component: {fileID: 8865100012085928057}
   m_Layer: 0
   m_Name: GearSimple.004
   m_TagString: Untagged
@@ -15103,6 +15110,7 @@ GameObject:
   - component: {fileID: 6617902858429645064}
   - component: {fileID: 3566529357093684745}
   - component: {fileID: 1638468406537221348}
+  - component: {fileID: 6617902858429645065}
   m_Layer: 0
   m_Name: Gear.010
   m_TagString: Untagged
@@ -15329,6 +15337,7 @@ GameObject:
   - component: {fileID: 5443420046359546103}
   - component: {fileID: 6877087281981587806}
   - component: {fileID: 8833633389549975885}
+  - component: {fileID: 8833633389549975886}
   m_Layer: 0
   m_Name: Gear
   m_TagString: Untagged
@@ -15419,6 +15428,7 @@ GameObject:
   - component: {fileID: 7846333010271176283}
   - component: {fileID: 1826240747472079427}
   - component: {fileID: 6589079817718143755}
+  - component: {fileID: 7846333010271176284}
   m_Layer: 0
   m_Name: GearDefault.004
   m_TagString: Untagged
@@ -15993,6 +16003,7 @@ GameObject:
   - component: {fileID: 8558875884708862973}
   - component: {fileID: 6189735048189658776}
   - component: {fileID: 522531087204746540}
+  - component: {fileID: 8558875884708862974}
   m_Layer: 0
   m_Name: Gear.024
   m_TagString: Untagged
@@ -16078,6 +16089,7 @@ GameObject:
   - component: {fileID: 1086236008551624340}
   - component: {fileID: 6373232549326114021}
   - component: {fileID: 2084155784085008414}
+  - component: {fileID: 6373232549326114022}
   m_Layer: 0
   m_Name: Gear.015
   m_TagString: Untagged
@@ -16096,6 +16108,7 @@ GameObject:
   - component: {fileID: 6790357201636904712}
   - component: {fileID: 2925235254296822965}
   - component: {fileID: 1319891202956330161}
+  - component: {fileID: 6790357201636904713}
   m_Layer: 0
   m_Name: Gear.009
   m_TagString: Untagged
@@ -16122,6 +16135,7 @@ GameObject:
   - component: {fileID: 4834425687547541285}
   - component: {fileID: 6756732651536613976}
   - component: {fileID: 5647753084926999308}
+  - component: {fileID: 6756732651536613977}
   m_Layer: 0
   m_Name: GearSmall.032
   m_TagString: Untagged
@@ -16236,6 +16250,7 @@ GameObject:
   - component: {fileID: 7784219766787604314}
   - component: {fileID: 1818679390642161571}
   - component: {fileID: 6316872825464645488}
+  - component: {fileID: 7784219766787604315}
   m_Layer: 0
   m_Name: GearSmall.020
   m_TagString: Untagged
@@ -16375,6 +16390,7 @@ GameObject:
   - component: {fileID: 2015006075789753242}
   - component: {fileID: 5512918888139413278}
   - component: {fileID: 192959662795634780}
+  - component: {fileID: 5512918888139413279}
   m_Layer: 0
   m_Name: GearSmall.018
   m_TagString: Untagged
@@ -16408,6 +16424,7 @@ GameObject:
   - component: {fileID: 4212141324039955052}
   - component: {fileID: 8667420871267633407}
   - component: {fileID: 1019670963799798642}
+  - component: {fileID: 8667420871267633408}
   m_Layer: 0
   m_Name: GearSmall.037
   m_TagString: Untagged
@@ -16609,6 +16626,7 @@ GameObject:
   - component: {fileID: 1121942242759664806}
   - component: {fileID: 3158183530815335914}
   - component: {fileID: 5992108294849619472}
+  - component: {fileID: 5992108294849619473}
   m_Layer: 0
   m_Name: GearSmall.047
   m_TagString: Untagged
@@ -16694,6 +16712,7 @@ GameObject:
   - component: {fileID: 2729475232358445865}
   - component: {fileID: 8972567782956582066}
   - component: {fileID: 7432299169379434128}
+  - component: {fileID: 8972567782956582067}
   m_Layer: 0
   m_Name: GearSmall.040
   m_TagString: Untagged
@@ -16901,6 +16920,7 @@ GameObject:
   - component: {fileID: 5689954955423228074}
   - component: {fileID: 2124489645699155196}
   - component: {fileID: 3490809426530957262}
+  - component: {fileID: 5689954955423228075}
   m_Layer: 0
   m_Name: GearSmall.057
   m_TagString: Untagged
@@ -17165,6 +17185,7 @@ GameObject:
   - component: {fileID: 8307175452219805563}
   - component: {fileID: 196394143579375641}
   - component: {fileID: 4951264273272108238}
+  - component: {fileID: 8307175452219805564}
   m_Layer: 0
   m_Name: GearSmall.056
   m_TagString: Untagged
@@ -17500,6 +17521,7 @@ GameObject:
   - component: {fileID: 6604123175737743098}
   - component: {fileID: 5355883289519811196}
   - component: {fileID: 2918021783388843792}
+  - component: {fileID: 6604123175737743099}
   m_Layer: 0
   m_Name: Gear.016
   m_TagString: Untagged
@@ -17600,6 +17622,7 @@ GameObject:
   - component: {fileID: 919065119745422680}
   - component: {fileID: 2805104191879360097}
   - component: {fileID: 8769582863155517692}
+  - component: {fileID: 8769582863155517693}
   m_Layer: 0
   m_Name: Gear.006
   m_TagString: Untagged
@@ -17641,6 +17664,7 @@ GameObject:
   - component: {fileID: 2102186324225630109}
   - component: {fileID: 445610527025238924}
   - component: {fileID: 5961119700576023194}
+  - component: {fileID: 5961119700576023195}
   m_Layer: 0
   m_Name: GearDefault.001
   m_TagString: Untagged
@@ -17690,6 +17714,7 @@ GameObject:
   - component: {fileID: 3033820695184173346}
   - component: {fileID: 1839563585063054843}
   - component: {fileID: 1098791983959792009}
+  - component: {fileID: 3305920711000856936}
   m_Layer: 0
   m_Name: Gear.005
   m_TagString: Untagged
@@ -17697,6 +17722,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3305920711000856936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3305920711000856935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &3307508454591562596
 GameObject:
   m_ObjectHideFlags: 0
@@ -18047,6 +18086,7 @@ GameObject:
   - component: {fileID: 2934295681403643238}
   - component: {fileID: 2099843625358714088}
   - component: {fileID: 6114758253988404634}
+  - component: {fileID: 6114758253988404635}
   m_Layer: 0
   m_Name: GearSmall.028
   m_TagString: Untagged
@@ -18366,6 +18406,7 @@ GameObject:
   - component: {fileID: 3514550411502812263}
   - component: {fileID: 5592845611247991908}
   - component: {fileID: 6671502530288251735}
+  - component: {fileID: 6671502530288251736}
   m_Layer: 0
   m_Name: GearSmall.033
   m_TagString: Untagged
@@ -18553,6 +18594,7 @@ GameObject:
   - component: {fileID: 2547147837640288138}
   - component: {fileID: 824136434255229516}
   - component: {fileID: 4369173735230527322}
+  - component: {fileID: 4369173735230527323}
   m_Layer: 0
   m_Name: GearSmall.048
   m_TagString: Untagged
@@ -18772,6 +18814,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4369173735230527323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4181720907181148307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &4382828865923819990
 Transform:
   m_ObjectHideFlags: 0
@@ -19008,6 +19064,7 @@ GameObject:
   - component: {fileID: 7987898058993281141}
   - component: {fileID: 7444954331734382347}
   - component: {fileID: 428648931398068275}
+  - component: {fileID: 7987898058993281142}
   m_Layer: 0
   m_Name: GearSmall.034
   m_TagString: Untagged
@@ -19026,6 +19083,7 @@ GameObject:
   - component: {fileID: 369062020788144804}
   - component: {fileID: 79942675218851031}
   - component: {fileID: 7973774939855419609}
+  - component: {fileID: 7973774939855419610}
   m_Layer: 0
   m_Name: GearSmall.019
   m_TagString: Untagged
@@ -19296,6 +19354,7 @@ GameObject:
   - component: {fileID: 1958360175562030978}
   - component: {fileID: 1317499223738124310}
   - component: {fileID: 8005095178282047219}
+  - component: {fileID: 8005095178282047220}
   m_Layer: 0
   m_Name: GearSmall.049
   m_TagString: Untagged
@@ -19509,6 +19568,7 @@ GameObject:
   - component: {fileID: 4783217195212368348}
   - component: {fileID: 6490657350102715227}
   - component: {fileID: 3008423925199655862}
+  - component: {fileID: 6490657350102715228}
   m_Layer: 0
   m_Name: Gear.021
   m_TagString: Untagged
@@ -19751,6 +19811,7 @@ GameObject:
   - component: {fileID: 3479587270921826647}
   - component: {fileID: 3994194463586567068}
   - component: {fileID: 8805428635278973626}
+  - component: {fileID: 8805428635278973627}
   m_Layer: 0
   m_Name: GearSmall.054
   m_TagString: Untagged
@@ -19777,6 +19838,7 @@ GameObject:
   - component: {fileID: 7614776287748544140}
   - component: {fileID: 6900413025327483749}
   - component: {fileID: 4505210196730804089}
+  - component: {fileID: 7614776287748544141}
   m_Layer: 0
   m_Name: GearSmall.036
   m_TagString: Untagged
@@ -19828,6 +19890,7 @@ GameObject:
   - component: {fileID: 4543761354768375791}
   - component: {fileID: 311552676233615982}
   - component: {fileID: 7240728534978064999}
+  - component: {fileID: 7240728534978065000}
   m_Layer: 0
   m_Name: Gear.001
   m_TagString: Untagged
@@ -20090,6 +20153,7 @@ GameObject:
   - component: {fileID: 2365630921450691313}
   - component: {fileID: 1056339854307971723}
   - component: {fileID: 2908220183734158454}
+  - component: {fileID: 5281774075694615831}
   m_Layer: 0
   m_Name: GearBig.003
   m_TagString: Untagged
@@ -20097,6 +20161,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5281774075694615831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5281774075694615830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &5305910860648851144
 Transform:
   m_ObjectHideFlags: 0
@@ -20123,6 +20201,7 @@ GameObject:
   - component: {fileID: 3309628253589486214}
   - component: {fileID: 5710363909253399230}
   - component: {fileID: 6551095869410793201}
+  - component: {fileID: 6551095869410793202}
   m_Layer: 0
   m_Name: GearSmall.003
   m_TagString: Untagged
@@ -20213,6 +20292,7 @@ GameObject:
   - component: {fileID: 1790637483575347153}
   - component: {fileID: 4253407395502030249}
   - component: {fileID: 2752019201243491099}
+  - component: {fileID: 5385134631716807433}
   m_Layer: 0
   m_Name: GearSimple.001
   m_TagString: Untagged
@@ -20220,6 +20300,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5385134631716807433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5385134631716807432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!23 &5386441387905470437
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20281,6 +20375,7 @@ GameObject:
   - component: {fileID: 222695433611385160}
   - component: {fileID: 9089126553372899326}
   - component: {fileID: 2930233175152662803}
+  - component: {fileID: 9089126553372899327}
   m_Layer: 0
   m_Name: GearSmall.023
   m_TagString: Untagged
@@ -20307,6 +20402,7 @@ GameObject:
   - component: {fileID: 2688105358644614787}
   - component: {fileID: 7363017129537784504}
   - component: {fileID: 4725031580305073489}
+  - component: {fileID: 7363017129537784505}
   m_Layer: 0
   m_Name: Gear.008
   m_TagString: Untagged
@@ -20337,6 +20433,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953682917620802339}
   m_Mesh: {fileID: -4283614901169641466, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &5512918888139413279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953682917620802339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &5515060414647942931
 Transform:
   m_ObjectHideFlags: 0
@@ -20363,6 +20473,7 @@ GameObject:
   - component: {fileID: 8802652455367746505}
   - component: {fileID: 3576972905388535766}
   - component: {fileID: 379197983408087764}
+  - component: {fileID: 8802652455367746506}
   m_Layer: 0
   m_Name: Gear.004
   m_TagString: Untagged
@@ -20559,6 +20670,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5689954955423228075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2681179067855467750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &5707169542770233146
 GameObject:
   m_ObjectHideFlags: 0
@@ -20570,6 +20695,7 @@ GameObject:
   - component: {fileID: 4120412205731851689}
   - component: {fileID: 8837078393244977134}
   - component: {fileID: 6674072975587251916}
+  - component: {fileID: 8837078393244977135}
   m_Layer: 0
   m_Name: GearSmall.044
   m_TagString: Untagged
@@ -20752,6 +20878,7 @@ GameObject:
   - component: {fileID: 8654151156844781143}
   - component: {fileID: 1752676205400251071}
   - component: {fileID: 4356359894949534456}
+  - component: {fileID: 8654151156844781144}
   m_Layer: 0
   m_Name: Gear.022
   m_TagString: Untagged
@@ -20819,6 +20946,7 @@ GameObject:
   - component: {fileID: 3623470953478024886}
   - component: {fileID: 3374623262408389601}
   - component: {fileID: 6606337758829492236}
+  - component: {fileID: 6606337758829492237}
   m_Layer: 0
   m_Name: Gear.019
   m_TagString: Untagged
@@ -20837,6 +20965,7 @@ GameObject:
   - component: {fileID: 7060431075065880633}
   - component: {fileID: 3839785263428356510}
   - component: {fileID: 22485026795627206}
+  - component: {fileID: 7060431075065880634}
   m_Layer: 0
   m_Name: GearBig.004
   m_TagString: Untagged
@@ -20965,6 +21094,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5961119700576023195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3170548740768989392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!23 &5992108294849619472
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21014,6 +21157,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5992108294849619473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2242725749469571277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &6023213341577063589
 GameObject:
   m_ObjectHideFlags: 0
@@ -21025,6 +21182,7 @@ GameObject:
   - component: {fileID: 5305910860648851144}
   - component: {fileID: 8909521896433740584}
   - component: {fileID: 7546084793394740631}
+  - component: {fileID: 8909521896433740585}
   m_Layer: 0
   m_Name: GearSmall.038
   m_TagString: Untagged
@@ -21302,6 +21460,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6114758253988404635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637920543533600101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!4 &6125043145357738816
 Transform:
   m_ObjectHideFlags: 0
@@ -21675,6 +21847,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715709215839771538}
   m_Mesh: {fileID: -3241693405283912763, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &6373232549326114022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715709215839771538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &6375662035417887586
 GameObject:
   m_ObjectHideFlags: 0
@@ -21925,6 +22111,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4677422595910304692}
   m_Mesh: {fileID: 8099667454021421724, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &6490657350102715228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4677422595910304692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &6499792138809373750
 GameObject:
   m_ObjectHideFlags: 0
@@ -21936,6 +22136,7 @@ GameObject:
   - component: {fileID: 8117780855012147068}
   - component: {fileID: 4701642249924707948}
   - component: {fileID: 5831390443892875916}
+  - component: {fileID: 8117780855012147069}
   m_Layer: 0
   m_Name: GearSmall.021
   m_TagString: Untagged
@@ -21962,6 +22163,7 @@ GameObject:
   - component: {fileID: 4532781233290471385}
   - component: {fileID: 6098705092875805957}
   - component: {fileID: 7151447001424089976}
+  - component: {fileID: 7151447001424089977}
   m_Layer: 0
   m_Name: GearSimple.002
   m_TagString: Untagged
@@ -22033,6 +22235,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6551095869410793202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5314283368362490875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &6554001719951910541
 GameObject:
   m_ObjectHideFlags: 0
@@ -22070,6 +22286,7 @@ GameObject:
   - component: {fileID: 3785657517510292716}
   - component: {fileID: 3303297457481891213}
   - component: {fileID: 5354071646591315447}
+  - component: {fileID: 6581654820621752378}
   m_Layer: 0
   m_Name: GearSmall.017
   m_TagString: Untagged
@@ -22077,6 +22294,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6581654820621752378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6581654820621752377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &6589079817718143755
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22145,6 +22376,7 @@ GameObject:
   - component: {fileID: 8134208313251855971}
   - component: {fileID: 4086823598021443429}
   - component: {fileID: 8803936937334566829}
+  - component: {fileID: 8803936937334566830}
   m_Layer: 0
   m_Name: GearSmall.002
   m_TagString: Untagged
@@ -22167,6 +22399,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7372232977930561143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6604123175737743099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2955387312377650939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &6606337758829492236
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22216,6 +22462,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6606337758829492237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841699209297682750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &6617902858429645064
 Transform:
   m_ObjectHideFlags: 0
@@ -22231,6 +22491,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6617902858429645065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927506806577957360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &6620718490698352139
 GameObject:
   m_ObjectHideFlags: 0
@@ -22242,6 +22516,7 @@ GameObject:
   - component: {fileID: 7306553763203339162}
   - component: {fileID: 8877378625404101727}
   - component: {fileID: 1164888290482603172}
+  - component: {fileID: 8877378625404101728}
   m_Layer: 0
   m_Name: Gear.018
   m_TagString: Untagged
@@ -22321,6 +22596,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6671502530288251736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4033933524202792498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!23 &6674072975587251916
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22465,6 +22754,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760886826059589664}
   m_Mesh: {fileID: 6731470890963298463, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &6756732651536613977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760886826059589664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &6780692939764096439
 GameObject:
   m_ObjectHideFlags: 0
@@ -22476,6 +22779,7 @@ GameObject:
   - component: {fileID: 6160427281993246855}
   - component: {fileID: 5586746849786476635}
   - component: {fileID: 8481563286683213102}
+  - component: {fileID: 8481563286683213103}
   m_Layer: 0
   m_Name: GearSmall.042
   m_TagString: Untagged
@@ -22491,6 +22795,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546492562505784486}
   m_Mesh: {fileID: 6203279663906053931, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &6783099210429936643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546492562505784486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!4 &6790357201636904712
 Transform:
   m_ObjectHideFlags: 0
@@ -22506,6 +22824,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6790357201636904713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750875103866511188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!23 &6802197519128548174
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22591,6 +22923,7 @@ GameObject:
   - component: {fileID: 4490207633493164273}
   - component: {fileID: 2133984526368298123}
   - component: {fileID: 4018152520920175458}
+  - component: {fileID: 6960183908385542467}
   m_Layer: 0
   m_Name: GearSmall.053
   m_TagString: Untagged
@@ -22598,6 +22931,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6960183908385542467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6960183908385542466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &6982113103303269179
 Transform:
   m_ObjectHideFlags: 0
@@ -22650,6 +22997,7 @@ GameObject:
   - component: {fileID: 4300256110917918177}
   - component: {fileID: 7359763282828886858}
   - component: {fileID: 4504653123526417489}
+  - component: {fileID: 7359763282828886859}
   m_Layer: 0
   m_Name: GearSmall.041
   m_TagString: Untagged
@@ -22672,6 +23020,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7060431075065880634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5859432007569283042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &7061957588049677738
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22852,6 +23214,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7151447001424089977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6509228938873372301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!4 &7165328291305779109
 Transform:
   m_ObjectHideFlags: 0
@@ -22922,6 +23298,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7240728534978065000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4946231914787883943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!33 &7271620232521074613
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -22968,6 +23358,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7058392210911619419}
   m_Mesh: {fileID: -4060818273434106620, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &7359763282828886859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7058392210911619419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!33 &7363017129537784504
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -22976,6 +23380,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5436086294956325268}
   m_Mesh: {fileID: 3873862503973384503, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &7363017129537784505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5436086294956325268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &7371316482836658954
 GameObject:
   m_ObjectHideFlags: 0
@@ -22987,6 +23405,7 @@ GameObject:
   - component: {fileID: 9026902239823927017}
   - component: {fileID: 3440609175689840247}
   - component: {fileID: 7799638842301200454}
+  - component: {fileID: 9026902239823927018}
   m_Layer: 0
   m_Name: Gear.007
   m_TagString: Untagged
@@ -23024,6 +23443,7 @@ GameObject:
   - component: {fileID: 393741952439070611}
   - component: {fileID: 6990241744809326534}
   - component: {fileID: 4460353825610925474}
+  - component: {fileID: 7381835616803042863}
   m_Layer: 0
   m_Name: GearSimple.003
   m_TagString: Untagged
@@ -23031,6 +23451,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7381835616803042863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7381835616803042862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &7396674433155058712
 Transform:
   m_ObjectHideFlags: 0
@@ -23057,6 +23491,7 @@ GameObject:
   - component: {fileID: 8585372742076247018}
   - component: {fileID: 7148228461560686002}
   - component: {fileID: 6062931462457366944}
+  - component: {fileID: 8585372742076247019}
   m_Layer: 0
   m_Name: Gear.023
   m_TagString: Untagged
@@ -23140,6 +23575,7 @@ GameObject:
   - component: {fileID: 3144385353607909589}
   - component: {fileID: 854277025980614492}
   - component: {fileID: 4534606361717988593}
+  - component: {fileID: 7499261502683677947}
   m_Layer: 0
   m_Name: GearSmall.030
   m_TagString: Untagged
@@ -23147,6 +23583,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7499261502683677947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499261502683677946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &7546084793394740631
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23252,6 +23702,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7165328291305779109}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7614776287748544141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4899179515026478390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!33 &7633406961142672450
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -23362,6 +23826,7 @@ GameObject:
   - component: {fileID: 8606289416243030972}
   - component: {fileID: 2280958870161148441}
   - component: {fileID: 6162592791386398708}
+  - component: {fileID: 8606289416243030973}
   m_Layer: 0
   m_Name: Gear.014
   m_TagString: Untagged
@@ -23384,6 +23849,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7784219766787604315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837992164577309714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &7799638842301200454
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23448,6 +23927,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7846333010271176284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111800097791270434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &7881800925010610174
 GameObject:
   m_ObjectHideFlags: 0
@@ -23459,6 +23952,7 @@ GameObject:
   - component: {fileID: 4136501660853597562}
   - component: {fileID: 6190021635026599440}
   - component: {fileID: 7979139635189829760}
+  - component: {fileID: 7979139635189829761}
   m_Layer: 0
   m_Name: GearSmall.031
   m_TagString: Untagged
@@ -23477,6 +23971,7 @@ GameObject:
   - component: {fileID: 7396674433155058712}
   - component: {fileID: 826001191105024847}
   - component: {fileID: 1900394363958766552}
+  - component: {fileID: 7914815096376670305}
   m_Layer: 0
   m_Name: GearDefault.003
   m_TagString: Untagged
@@ -23484,6 +23979,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7914815096376670305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7914815096376670304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &7973774939855419609
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23533,6 +24042,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7973774939855419610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4488944534694307609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!33 &7977018855691202560
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -23541,6 +24064,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277333901056771448}
   m_Mesh: {fileID: -968469344348448283, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &7977018855691202561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277333901056771448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &7979139635189829760
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23590,6 +24127,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7979139635189829761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7881800925010610174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &7987898058993281141
 Transform:
   m_ObjectHideFlags: 0
@@ -23605,6 +24156,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4123257071479863512}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7987898058993281142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4487500338971652229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &8005095178282047219
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23654,6 +24219,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8005095178282047220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4527046025202454193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &8060971514007163550
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23714,6 +24293,7 @@ GameObject:
   - component: {fileID: 3925933460126572276}
   - component: {fileID: 863573704122221527}
   - component: {fileID: 1252092061670837756}
+  - component: {fileID: 8068938266449720286}
   m_Layer: 0
   m_Name: GearSmall.045
   m_TagString: Untagged
@@ -23721,6 +24301,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8068938266449720286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8068938266449720285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &8069264497758707816
 Transform:
   m_ObjectHideFlags: 0
@@ -23730,12 +24324,26 @@ Transform:
   m_GameObject: {fileID: 458946217460862109}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19211398, y: -0.24492466, z: 0.0004248023}
+  m_LocalPosition: {x: -0.1617, y: -0.24492466, z: 0.0004248023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4123257071479863512}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8069264497758707817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458946217460862109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!23 &8079559978163341531
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23785,6 +24393,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8079559978163341532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746793042683816212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &8084977793664391575
 GameObject:
   m_ObjectHideFlags: 0
@@ -23796,6 +24418,7 @@ GameObject:
   - component: {fileID: 5515060414647942931}
   - component: {fileID: 3205571006799166760}
   - component: {fileID: 8997260238889178254}
+  - component: {fileID: 8997260238889178255}
   m_Layer: 0
   m_Name: GearSmall.027
   m_TagString: Untagged
@@ -23868,6 +24491,7 @@ GameObject:
   - component: {fileID: 5623514558251890302}
   - component: {fileID: 1414881677978422225}
   - component: {fileID: 847596067741315573}
+  - component: {fileID: 8104092937385152939}
   m_Layer: 0
   m_Name: Gear.013
   m_TagString: Untagged
@@ -23875,6 +24499,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8104092937385152939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8104092937385152938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &8113128910186982726
 GameObject:
   m_ObjectHideFlags: 0
@@ -23886,6 +24524,7 @@ GameObject:
   - component: {fileID: 435057849026326337}
   - component: {fileID: 5534508643337390413}
   - component: {fileID: 9138792792917930119}
+  - component: {fileID: 9138792792917930120}
   m_Layer: 0
   m_Name: Gear.017
   m_TagString: Untagged
@@ -23916,6 +24555,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8117780855012147069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6499792138809373750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &8134208313251855971
 Transform:
   m_ObjectHideFlags: 0
@@ -23965,6 +24618,7 @@ GameObject:
   - component: {fileID: 5148912680391586641}
   - component: {fileID: 1198340788529341261}
   - component: {fileID: 6428653019722515605}
+  - component: {fileID: 8162006006235796109}
   m_Layer: 0
   m_Name: GearSmall.029
   m_TagString: Untagged
@@ -23972,6 +24626,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8162006006235796109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8162006006235796108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &8271185881219742486
 GameObject:
   m_ObjectHideFlags: 0
@@ -24050,6 +24718,7 @@ GameObject:
   - component: {fileID: 6982113103303269179}
   - component: {fileID: 4144388001854751856}
   - component: {fileID: 4528957683770544050}
+  - component: {fileID: 8284609435937751468}
   m_Layer: 0
   m_Name: GearSmall.039
   m_TagString: Untagged
@@ -24057,6 +24726,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8284609435937751468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8284609435937751467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &8307175452219805563
 Transform:
   m_ObjectHideFlags: 0
@@ -24072,6 +24755,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8307175452219805564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832165602403051938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!4 &8307902518949144768
 Transform:
   m_ObjectHideFlags: 0
@@ -24214,6 +24911,7 @@ GameObject:
   - component: {fileID: 149860255112553648}
   - component: {fileID: 4056104065981863381}
   - component: {fileID: 2783037209143299792}
+  - component: {fileID: 8372561014702672838}
   m_Layer: 0
   m_Name: Gear.020
   m_TagString: Untagged
@@ -24221,6 +24919,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8372561014702672838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8372561014702672837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &8379401471896738537
 Transform:
   m_ObjectHideFlags: 0
@@ -24255,6 +24967,7 @@ GameObject:
   - component: {fileID: 3448764930045213638}
   - component: {fileID: 4057771554189622399}
   - component: {fileID: 2488877801074061227}
+  - component: {fileID: 8394509916416766911}
   m_Layer: 0
   m_Name: GearBig.002
   m_TagString: Untagged
@@ -24262,6 +24975,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8394509916416766911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8394509916416766910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &8395688886554008531
 GameObject:
   m_ObjectHideFlags: 0
@@ -24273,6 +25000,7 @@ GameObject:
   - component: {fileID: 6030025752462319905}
   - component: {fileID: 2059268980893302600}
   - component: {fileID: 3728537300422207799}
+  - component: {fileID: 8395688886554008532}
   m_Layer: 0
   m_Name: GearDefault.002
   m_TagString: Untagged
@@ -24280,6 +25008,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8395688886554008532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395688886554008531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &8440701826931240071
 GameObject:
   m_ObjectHideFlags: 0
@@ -24291,6 +25033,7 @@ GameObject:
   - component: {fileID: 989658169891072295}
   - component: {fileID: 7271620232521074613}
   - component: {fileID: 2840916709055635113}
+  - component: {fileID: 8440701826931240072}
   m_Layer: 0
   m_Name: Gear.003
   m_TagString: Untagged
@@ -24298,6 +25041,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8440701826931240072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8440701826931240071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &8473617781880988551
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24396,6 +25153,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8481563286683213103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6780692939764096439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!23 &8497170385926038609
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24458,12 +25229,26 @@ Transform:
   m_GameObject: {fileID: 1618206016456291981}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24016526, y: -0.25345576, z: 0.0004248172}
+  m_LocalPosition: {x: -0.2098, y: -0.25345576, z: 0.0004248172}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4123257071479863512}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8558875884708862974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618206016456291981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!4 &8585372742076247018
 Transform:
   m_ObjectHideFlags: 0
@@ -24479,6 +25264,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1016086521999450284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8585372742076247019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7429770362786367574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &8586686902166330572
 GameObject:
   m_ObjectHideFlags: 0
@@ -24490,6 +25289,7 @@ GameObject:
   - component: {fileID: 6445251853997949548}
   - component: {fileID: 2504603853953558756}
   - component: {fileID: 4105417266762855275}
+  - component: {fileID: 8586686902166330573}
   m_Layer: 0
   m_Name: Gear.012
   m_TagString: Untagged
@@ -24497,6 +25297,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8586686902166330573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8586686902166330572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &8587676104271842430
 GameObject:
   m_ObjectHideFlags: 0
@@ -24508,6 +25322,7 @@ GameObject:
   - component: {fileID: 4387244387472476001}
   - component: {fileID: 2817038011383875527}
   - component: {fileID: 4434758464634208386}
+  - component: {fileID: 8587676104271842431}
   m_Layer: 0
   m_Name: GearSmall.026
   m_TagString: Untagged
@@ -24515,6 +25330,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8587676104271842431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8587676104271842430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &8606289416243030972
 Transform:
   m_ObjectHideFlags: 0
@@ -24530,6 +25359,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2521931405584776931}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8606289416243030973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7751519952041308043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!23 &8641760563923437064
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24594,6 +25437,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1016086521999450284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8654151156844781144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5793507958946093771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!33 &8667420871267633407
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -24602,6 +25459,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2006147089831067692}
   m_Mesh: {fileID: -5518063444002280823, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &8667420871267633408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006147089831067692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!33 &8672649327379567257
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -24621,6 +25492,7 @@ GameObject:
   - component: {fileID: 854126273163864847}
   - component: {fileID: 38199917036624669}
   - component: {fileID: 8318269343149156456}
+  - component: {fileID: 8689823093292907351}
   m_Layer: 0
   m_Name: GearSmall.022
   m_TagString: Untagged
@@ -24628,6 +25500,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8689823093292907351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689823093292907350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &8695617101023916946
 GameObject:
   m_ObjectHideFlags: 0
@@ -24756,6 +25642,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8769582863155517693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127912624520800301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &8796920039491738336
 Transform:
   m_ObjectHideFlags: 0
@@ -24786,6 +25686,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8802652455367746506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5526028295597077308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &8803936937334566829
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24835,6 +25749,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8803936937334566830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601809809177632101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!23 &8805428635278973626
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24884,6 +25812,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8805428635278973627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4873061120197385889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!23 &8833633389549975885
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24933,6 +25875,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8833633389549975886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053045036202797870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!33 &8837078393244977134
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -24941,6 +25897,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5707169542770233146}
   m_Mesh: {fileID: -1916365297850241704, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &8837078393244977135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5707169542770233146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &8842311001211078451
 GameObject:
   m_ObjectHideFlags: 0
@@ -25006,6 +25976,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8865100012085928057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921900418864140423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &8868852499176516194
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25066,6 +26050,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6620718490698352139}
   m_Mesh: {fileID: -2272220252874099971, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &8877378625404101728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620718490698352139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!33 &8909521896433740584
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -25074,6 +26072,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6023213341577063589}
   m_Mesh: {fileID: -9047883567424450783, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &8909521896433740585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023213341577063589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!4 &8955554358440183933
 Transform:
   m_ObjectHideFlags: 0
@@ -25151,6 +26163,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2448995948523721220}
   m_Mesh: {fileID: 8709341748246280924, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &8972567782956582067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2448995948523721220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &8977084820485404070
 GameObject:
   m_ObjectHideFlags: 0
@@ -25267,6 +26293,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8997260238889178255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8084977793664391575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &8999930647587771329
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25316,6 +26356,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8999930647587771330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101444067882941249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &9024318928028649970
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25380,6 +26434,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9026902239823927018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371316482836658954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &9060556414376176255
 GameObject:
   m_ObjectHideFlags: 0
@@ -25391,6 +26459,7 @@ GameObject:
   - component: {fileID: 50728041206670094}
   - component: {fileID: 2873746308363620051}
   - component: {fileID: 8978271558405985477}
+  - component: {fileID: 9060556414376176256}
   m_Layer: 0
   m_Name: GearBig.001
   m_TagString: Untagged
@@ -25398,6 +26467,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9060556414376176256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9060556414376176255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!33 &9070686827697717050
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -25442,6 +26525,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4504903343002421260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9082920064825964412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749003982125918115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &9084946904033723497
 GameObject:
   m_ObjectHideFlags: 0
@@ -25453,6 +26550,7 @@ GameObject:
   - component: {fileID: 8379401471896738537}
   - component: {fileID: 3520106985038072556}
   - component: {fileID: 5760523086705530136}
+  - component: {fileID: 9084946904033723498}
   m_Layer: 0
   m_Name: GearSmall.001
   m_TagString: Untagged
@@ -25460,6 +26558,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9084946904033723498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9084946904033723497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!33 &9089126553372899326
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -25468,6 +26580,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5405679455243606336}
   m_Mesh: {fileID: 2155809419567683605, guid: 5710188e4cda25940ad5087b22a1cdac, type: 3}
+--- !u!114 &9089126553372899327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5405679455243606336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &9114157672490099771
 GameObject:
   m_ObjectHideFlags: 0
@@ -25479,6 +26605,7 @@ GameObject:
   - component: {fileID: 6367793875775307554}
   - component: {fileID: 8394200993238024407}
   - component: {fileID: 8641760563923437064}
+  - component: {fileID: 9114157672490099772}
   m_Layer: 0
   m_Name: GearSmall.051
   m_TagString: Untagged
@@ -25486,6 +26613,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9114157672490099772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9114157672490099771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!23 &9138792792917930119
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25535,6 +26676,20 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &9138792792917930120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8113128910186982726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1 &9143101391222200676
 GameObject:
   m_ObjectHideFlags: 0
@@ -25546,6 +26701,7 @@ GameObject:
   - component: {fileID: 8718524102844889459}
   - component: {fileID: 88238953778278961}
   - component: {fileID: 6349158434364526897}
+  - component: {fileID: 9143101391222200677}
   m_Layer: 0
   m_Name: GearSmall.043
   m_TagString: Untagged
@@ -25553,6 +26709,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9143101391222200677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9143101391222200676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 2
+  speed: 100
 --- !u!1 &9157116014515234123
 GameObject:
   m_ObjectHideFlags: 0
@@ -25564,6 +26734,7 @@ GameObject:
   - component: {fileID: 3958168617783413686}
   - component: {fileID: 4109854300241553375}
   - component: {fileID: 5205036700169411697}
+  - component: {fileID: 9157116014515234124}
   m_Layer: 0
   m_Name: Gear.002
   m_TagString: Untagged
@@ -25571,6 +26742,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9157116014515234124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9157116014515234123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73207caafc2657b4a9d82f33a4599a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSpinner
+  rotationAxis: 0
+  speed: 100
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
