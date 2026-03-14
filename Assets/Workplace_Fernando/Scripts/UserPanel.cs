@@ -28,9 +28,9 @@ public class UserPanel : MonoBehaviour
             new Hint { title = "WELCOME", desc = "" }, //0
             new Hint { title = "HINT", desc = "Look inside the tower." }, //1
             new Hint { title = "WALK", desc = "Lil Charlie moves where he is pushed." }, //2
-            new Hint { title = "PLATFORMS", desc = "Not every path is fixed. Try pulling the red pipes." }, //3
-            new Hint { title = "CENTRAL\nBRIDGE", desc = "If a path doesn’t exist yet, the central cage might help." }, //4
-            new Hint { title = "TIME\nCONTROL", desc = "Some things grow with time... some reverse." }, //5
+            new Hint { title = "PLATFORMS", desc = "Some paths move. Pull the red pipes." }, //3
+            new Hint { title = "CENTRAL\nBRIDGE", desc = "No path yet? Try the central cage." }, //4
+            new Hint { title = "TIME\nCONTROL", desc = "Things grow with time. Some shrink." }, //5
             new Hint { title = "PASSWORD", desc = "The tower leaves clues for those who observe." } //6
         };
         SetHint(0);
