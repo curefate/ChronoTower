@@ -7,6 +7,15 @@ public class OpenWall : MonoBehaviour
     public void SetIfShouldOpen(bool value)
     {
         ifShouldOpen = value;
+        if (!value && _isOpen)
+        {
+            _isOpen = false;
+            if (currentCoroutine != null)
+            {
+                StopCoroutine(currentCoroutine);
+            }
+            currentCoroutine = StartCoroutine(OpenOrCloseCoroutine(false));
+        }
     }
     [SerializeField] private Transform centralPivot;
 
@@ -19,6 +28,7 @@ public class OpenWall : MonoBehaviour
     private Quaternion targetRotation;
     private Vector3 forwardDirection;
     private Coroutine currentCoroutine;
+    private bool _isOpen = false;
 
     private void Start()
     {
@@ -35,16 +45,18 @@ public class OpenWall : MonoBehaviour
         Vector3 toCam = camPos.position - centralPivot.position;
         toCam = Vector3.ProjectOnPlane(toCam, Vector3.up).normalized;
         float angleToCam = Vector3.Angle(forwardDirection, toCam);
-        if (angleToCam < detectionAngle)
+        if (angleToCam < detectionAngle && !_isOpen)
         {
+            _isOpen = true;
             if (currentCoroutine != null)
             {
                 StopCoroutine(currentCoroutine);
             }
             currentCoroutine = StartCoroutine(OpenOrCloseCoroutine(true));
         }
-        else
+        else if (angleToCam >= detectionAngle && _isOpen)
         {
+            _isOpen = false;
             if (currentCoroutine != null)
             {
                 StopCoroutine(currentCoroutine);

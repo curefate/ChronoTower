@@ -4025,7 +4025,7 @@ PrefabInstance:
     - target: {fileID: 9053347633681654611, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
       propertyPath: OnClockwise.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 569405826}
+      objectReference: {fileID: 569405827}
     - target: {fileID: 9053347633681654611, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
       propertyPath: OnClockwise.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4057,7 +4057,7 @@ PrefabInstance:
     - target: {fileID: 9053347633681654611, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
       propertyPath: OnCounterClockwise.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 569405826}
+      objectReference: {fileID: 569405827}
     - target: {fileID: 9053347633681654611, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
       propertyPath: OnCounterClockwise.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4080,7 +4080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053347633681654611, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
       propertyPath: OnClockwise.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AudioSourceFader, Assembly-CSharp
+      value: UnityEngine.AudioSource, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9053347633681654611, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
       propertyPath: OnClockwise.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
@@ -4092,7 +4092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053347633681654611, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
       propertyPath: OnCounterClockwise.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AudioSourceFader, Assembly-CSharp
+      value: UnityEngine.AudioSource, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9053347633681654611, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
       propertyPath: OnCounterClockwise.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -4122,22 +4122,17 @@ PrefabInstance:
       propertyPath: OnCounterClockwise.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.AudioClip, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7457161057764033973, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
---- !u!114 &569405826 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7457161057764033973, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
+--- !u!82 &569405827 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6745096368401768973, guid: 5b196fdc9b7f562448e1199bfa840d9b, type: 3}
   m_PrefabInstance: {fileID: 569405825}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d6ca3bbdcabb641b35b53681f3de7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioSourceFader
 --- !u!1 &575498767
 GameObject:
   m_ObjectHideFlags: 0
@@ -5363,7 +5358,6 @@ GameObject:
   - component: {fileID: 749616194}
   - component: {fileID: 749616197}
   - component: {fileID: 749616196}
-  - component: {fileID: 749616198}
   m_Layer: 0
   m_Name: grab
   m_TagString: Untagged
@@ -5568,15 +5562,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovementEvents
   detectMode: 0
   horizontalOnly: 0
-  speedThreshold: 0.05
+  speedThreshold: 0.03
   stopDelay: 0.1
   startDelay: 0.05
   onMoveStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 749616198}
-        m_TargetAssemblyTypeName: AudioSourceFader, Assembly-CSharp
-        m_MethodName: PlayOrUnPause
+      - m_Target: {fileID: 749616196}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5589,9 +5583,9 @@ MonoBehaviour:
   onMoveStopped:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 749616198}
-        m_TargetAssemblyTypeName: AudioSourceFader, Assembly-CSharp
-        m_MethodName: Pause
+      - m_Target: {fileID: 749616196}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5601,68 +5595,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &749616198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749616191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d6ca3bbdcabb641b35b53681f3de7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioSourceFader
-  fadeInDuration: 0
-  fadeOutDuration: 0.5
-  fadeInCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  fadeOutCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &752978281
 GameObject:
   m_ObjectHideFlags: 0
