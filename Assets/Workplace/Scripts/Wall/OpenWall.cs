@@ -23,6 +23,7 @@ public class OpenWall : MonoBehaviour
     private const float openSpeed = 18f;
     private const float openAngle = 90f;
 
+    private AudioSource audioSource;
     private Transform camPos;
     private Quaternion originalRotation;
     private Quaternion targetRotation;
@@ -36,6 +37,7 @@ public class OpenWall : MonoBehaviour
         originalRotation = transform.rotation;
         targetRotation = Quaternion.Euler(0, openAngle, 0) * originalRotation;
         forwardDirection = transform.right;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -67,6 +69,8 @@ public class OpenWall : MonoBehaviour
 
     private IEnumerator OpenOrCloseCoroutine(bool open)
     {
+        audioSource.Play();
+
         var finalRotation = open ? targetRotation : originalRotation;
         while (Quaternion.Angle(transform.rotation, finalRotation) > 0.1f)
         {
@@ -74,5 +78,7 @@ public class OpenWall : MonoBehaviour
             yield return null;
         }
         transform.rotation = finalRotation;
+
+        audioSource.Stop();
     }
 }
