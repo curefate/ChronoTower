@@ -3,7 +3,127 @@ guid: f0665d81a4a2e0e4286fa2f2fc4ad8a2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beige
+    second: {fileID: 2100000, guid: b90732905c30e1d4ab151e0e5d991513, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BluePlatform
+    second: {fileID: 2100000, guid: c535396f6a7f4134f9396fdbaf21bb9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrownRope
+    second: {fileID: 2100000, guid: 9f9b582de6572ad418a66381e8abe8d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Copper
+    second: {fileID: 2100000, guid: a7fca79f275f45f418c5ef2e8b41e14a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Copper.001
+    second: {fileID: 2100000, guid: e2dc4a2149ca9c344822d18af9cc0dae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkBeige
+    second: {fileID: 2100000, guid: 87a940eac8bb2ad4fade61cc2fe3b453, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkBeige.001
+    second: {fileID: 2100000, guid: 2c88537117a9a7d48a8218c257acc3cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkGreenVine
+    second: {fileID: 2100000, guid: 9a4b725598e9fa042ae509a22da4e2c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkWhite
+    second: {fileID: 2100000, guid: 507ab92c26276cb4c9d671c2e56be8d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GoldenPipe
+    second: {fileID: 2100000, guid: c0d1379877a8c77498ddb84bcc1400ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrayPlatform
+    second: {fileID: 2100000, guid: 5f2a7119fea3bd54fa9561e159dc5f04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenVegetation
+    second: {fileID: 2100000, guid: bc1952241bf848f4b9384b4bf6bb548d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenVine
+    second: {fileID: 2100000, guid: 9ed4ff939d746a943a29de405023452e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LilCharlieSkin
+    second: {fileID: 2100000, guid: d223feae2d4f0524a9f5f3a31a2ae37f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 3f584a3bf6660fb4096aa10b00b8ec7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpaqueBlack
+    second: {fileID: 2100000, guid: e0cc1d261a4b65f4dab50387f796f8d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpaqueBlack.001
+    second: {fileID: 2100000, guid: 0e71f2a99b1b7dc4aa8e46f944437b72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrangeBridge
+    second: {fileID: 2100000, guid: e7999454823fb2f4a8858f127ec3e29b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PaleWhite
+    second: {fileID: 2100000, guid: a388b02f27838804db165fe66eec707b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PitchBlack
+    second: {fileID: 2100000, guid: 0e591420492a61045ae22168ae388747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedHandle
+    second: {fileID: 2100000, guid: 9720960f60b7271489e78dbb84bca3ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedValve
+    second: {fileID: 2100000, guid: d5ad955ae9db8e242ba7ec9fe314b03c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofTiles
+    second: {fileID: 2100000, guid: 8619897bb598d2d4a94751c6270bdd00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YellowPilar
+    second: {fileID: 2100000, guid: c12241766e9238042b943bd6f42380d6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
