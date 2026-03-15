@@ -32,11 +32,6 @@ public class MRUKNearestTableAnchor : MonoBehaviour
             Debug.Log("[MRUK] 找到最近桌子：" + nearestTable.name);
             PlaceOnTable(nearestTable);
         }
-        else
-        {
-            Debug.Log("[MRUK] 没找到桌子 → 放置到 Floor");
-            PlaceOnFloor(anchors);
-        }
     }
 
     // ----------------------------------------------------------
@@ -100,43 +95,5 @@ public class MRUKNearestTableAnchor : MonoBehaviour
         // 应用偏移量
         targetTransform.position = placePos + placementOffset;
         Debug.Log($"[MRUK] 最终放置位置: {targetTransform.position} (偏移: {placementOffset})");
-    }
-
-    // ----------------------------------------------------------
-    // 放到 Floor（最近的 floor plane 高度）
-    // ----------------------------------------------------------
-    private void PlaceOnFloor(List<MRUKAnchor> anchors)
-    {
-        MRUKAnchor floorAnchor = null;
-
-        foreach (var a in anchors)
-        {
-            if (a.Label == SceneLabels.FLOOR)
-            {
-                floorAnchor = a;
-                break;
-            }
-        }
-
-        Vector3 dropPos;
-
-        if (floorAnchor != null)
-        {
-            // 使用 floor anchor 的 transform 位置获取地板高度
-            float floorY = floorAnchor.transform.position.y;
-
-            dropPos = new Vector3(
-                player.position.x,
-                floorY + 0.02f,
-                player.position.z
-            );
-        }
-        else
-        {
-            // 保险：如果 Floor 也找不到
-            dropPos = player.position + Vector3.down * 1f;
-        }
-
-        targetTransform.position = dropPos + placementOffset;
     }
 }
