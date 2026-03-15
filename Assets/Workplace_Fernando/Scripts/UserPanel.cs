@@ -31,7 +31,8 @@ public class UserPanel : MonoBehaviour
             new Hint { title = "PLATFORMS", desc = "Not every path is fixed. Try pulling the red pipes." }, //3
             new Hint { title = "CENTRAL\nBRIDGE", desc = "If a path doesn’t exist yet, the central cage might help." }, //4
             new Hint { title = "TIME\nCONTROL", desc = "Some things grow with time... some reverse." }, //5
-            new Hint { title = "PASSWORD", desc = "The tower leaves clues for those who observe." } //6
+            new Hint { title = "PASSWORD", desc = "The tower leaves clues for those who observe." }, //6
+            new Hint { title = "BLOCKED", desc = "Vines can't grow through blocked paths."} // 7
         };
         SetHint(0);
     }
@@ -61,6 +62,12 @@ public class UserPanel : MonoBehaviour
         }
     }
 
+    private IEnumerator DelaySetHint(int index, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SetHint(index);
+    }
+
     public void cleanHints()
     {
         titleText.text = "";
@@ -69,7 +76,7 @@ public class UserPanel : MonoBehaviour
 
     public void startGame()
     {
-        
+
         //playButton.SetActive(false);
         StartCoroutine(FadePlayButton());
         Debug.Log("Should Start the Game");
@@ -92,7 +99,7 @@ public class UserPanel : MonoBehaviour
         cg.alpha = 0;
         playButton.SetActive(false);
         SetHint(1);
-
+        StartCoroutine(DelaySetHint(2, 5f));
     }
 
     public void ffTime()

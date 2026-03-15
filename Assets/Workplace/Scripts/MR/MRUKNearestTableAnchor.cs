@@ -137,6 +137,6 @@ public class MRUKNearestTableAnchor : MonoBehaviour
             dropPos = player.position + Vector3.down * 1f;
         }
 
-        targetTransform.position = dropPos;
+        targetTransform.position = dropPos + placementOffset;
     }
 }
