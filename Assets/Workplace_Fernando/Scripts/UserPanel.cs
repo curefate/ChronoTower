@@ -32,7 +32,8 @@ public class UserPanel : MonoBehaviour
             new Hint { title = "CENTRAL\nBRIDGE", desc = "If a path doesn’t exist yet, the central cage might help." }, //4
             new Hint { title = "TIME\nCONTROL", desc = "Some things grow with time... some reverse." }, //5
             new Hint { title = "PASSWORD", desc = "The tower leaves clues for those who observe." }, //6
-            new Hint { title = "BLOCKED", desc = "Vines can't grow through blocked paths."} // 7
+            new Hint { title = "BLOCKED", desc = "Vines can't grow through blocked paths."}, // 7
+            new Hint { title = "CONGRATULATIONS", desc = "Thank you for playing!"} // 8 mother fucker!!!
         };
         SetHint(0);
     }

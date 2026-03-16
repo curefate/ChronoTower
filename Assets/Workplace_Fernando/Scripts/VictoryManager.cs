@@ -15,6 +15,9 @@ public class VictoryManager : MonoBehaviour
     [Header("Firework Prefabs")]
     public GameObject[] fireworksPrefabs;
 
+    [Header("Firework Brightness")]
+    public float emissionMultiplier = 4f;
+
     [Header("Rocket")]
     public GameObject rocketPrefab;
     public float rocketSpeed = 8f;
@@ -27,29 +30,11 @@ public class VictoryManager : MonoBehaviour
     [Header("Timing")]
     public float spawnInterval = 1.5f;
 
-    bool running = false;
-
-    [Header("Explosion Light")]
-    public float lightRange = 8f;
-    public float lightIntensity = 12f;
-    public float lightDuration = 0.25f;
-
     [Header("Rocket Sound")]
     public AudioClip rocketWhistle;
-    public float rocketVolume = 1f; 
+    public float rocketVolume = 0.25f;
 
-    void Start()
-    {
-        StartCelebration();
-    }
-
-    // void Update()
-    // {
-    //     if (Keyboard.current.digit0Key.wasPressedThisFrame) 
-    //     {
-    //         StartCelebration();
-    //     }
-    // }
+    bool running = false;
 
     public void StartCelebration()
     {
@@ -89,7 +74,7 @@ public class VictoryManager : MonoBehaviour
             AudioSource a = rocket.AddComponent<AudioSource>();
             a.clip = rocketWhistle;
             a.volume = rocketVolume;
-            a.spatialBlend = 1f;   // 3D sound
+            a.spatialBlend = 1f;
             a.Play();
         }
 
@@ -121,36 +106,18 @@ public class VictoryManager : MonoBehaviour
         GameObject prefab = fireworksPrefabs[Random.Range(0, fireworksPrefabs.Length)];
         GameObject firework = Instantiate(prefab, pos, Quaternion.identity);
 
-        // play explosion sound
+        // Play explosion sound
         if (explosionSound != null)
             AudioSource.PlayClipAtPoint(explosionSound, pos, explosionVolume);
 
-        // get firework color
+        // Boost particle brightness (HDR effect)
         ParticleSystem ps = firework.GetComponent<ParticleSystem>();
-        Color fireworkColor = Color.white;
-
         if (ps != null)
-            fireworkColor = ps.main.startColor.color;
-
-        // create temporary light
-        StartCoroutine(SpawnExplosionLight(pos, fireworkColor));
-    }
-
-    IEnumerator SpawnExplosionLight(Vector3 pos, Color c)
-    {
-        GameObject lightObj = new GameObject("FireworkLight");
-        lightObj.transform.position = pos;
-
-        Light l = lightObj.AddComponent<Light>();
-        l.type = LightType.Point;
-        l.color = c;
-        l.range = lightRange;
-        l.intensity = lightIntensity;
-        l.shadows = LightShadows.None;
-
-        yield return new WaitForSeconds(lightDuration);
-
-        Destroy(lightObj);
+        {
+            var main = ps.main;
+            Color c = main.startColor.color;
+            main.startColor = new ParticleSystem.MinMaxGradient(c * emissionMultiplier);
+        }
     }
 
     void OnDrawGizmosSelected()
