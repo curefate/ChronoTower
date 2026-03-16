@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GoldenPipe 2
-  m_Shader: {fileID: 4800000, guid: e1b734cb95fa288408401d3b5c6167db, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6d77edc762a37514683d4fa3d37ba61a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []

@@ -3,7 +3,52 @@ guid: a78652bb35bd05445988b3db6ea683d1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beige
+    second: {fileID: 2100000, guid: 955b9db7515168d44b2bf77dfad0078c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Copper.001
+    second: {fileID: 2100000, guid: 359d9f1224d9c34468b38b127389dc13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkBeige
+    second: {fileID: 2100000, guid: 6d63bea4f4637e344a4f27a828e70ae7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkBeige.001
+    second: {fileID: 2100000, guid: 643cb6ba56ff3d44bb91f4e7e0e03a2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LilCharlieSkin
+    second: {fileID: 2100000, guid: 1677f675e999c6444ba7d934d4fc4ae8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpaqueBlack.001
+    second: {fileID: 2100000, guid: dc42da491811c374fb9669fbd3f30a12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PaleWhite
+    second: {fileID: 2100000, guid: 48314fd6ba2d3ba40ada174816268170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PitchBlack
+    second: {fileID: 2100000, guid: 2e7381b045a6c3e49ab887e5c5b8fc8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedValve
+    second: {fileID: 2100000, guid: 0d70de76d32aa434582f67dc54b6d038, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
