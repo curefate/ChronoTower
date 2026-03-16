@@ -173,7 +173,7 @@ One of the core mechanics of ChronoTower is the ability to control the flow of t
 **Puzzle Locks**
 The final door at the top of the tower is protected by a lock mechanism that requires players to solve a symbol-based code. Players must observe clues and determine the correct combination in order to unlock the door and fix the tower.
 
-**Watch the demo video or try the live version.**
+**Watch the demo video: https://drive.google.com/file/d/1xsuVkEM5CKkluX5BhWLMt1i6UJe3qv0n/view?usp=sharing or try the live version.**
 
 Link: 
 
