@@ -1264,7 +1264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dda0127cac7b5a44a3f4bc63beae65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PassCodeButton
-  isCorrect: 0
+  isCorrect: 1
   isPressed: 0
   pokeInteractableVisual: {fileID: 635391087161214701}
   buttonVisual: {fileID: 2166688318570469468}
@@ -4365,7 +4365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dda0127cac7b5a44a3f4bc63beae65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PassCodeButton
-  isCorrect: 1
+  isCorrect: 0
   isPressed: 0
   pokeInteractableVisual: {fileID: 3250328085914286969}
   buttonVisual: {fileID: 7982314786497327367}
@@ -5173,7 +5173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dda0127cac7b5a44a3f4bc63beae65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PassCodeButton
-  isCorrect: 1
+  isCorrect: 0
   isPressed: 0
   pokeInteractableVisual: {fileID: 9194441102396965057}
   buttonVisual: {fileID: 586385686544292156}
@@ -5612,7 +5612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dda0127cac7b5a44a3f4bc63beae65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PassCodeButton
-  isCorrect: 1
+  isCorrect: 0
   isPressed: 0
   pokeInteractableVisual: {fileID: 5530213212665120409}
   buttonVisual: {fileID: 8706327014456874486}
@@ -6549,7 +6549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dda0127cac7b5a44a3f4bc63beae65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PassCodeButton
-  isCorrect: 0
+  isCorrect: 1
   isPressed: 0
   pokeInteractableVisual: {fileID: 6178372253590219903}
   buttonVisual: {fileID: 1170035358048187560}
@@ -6818,7 +6818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dda0127cac7b5a44a3f4bc63beae65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PassCodeButton
-  isCorrect: 0
+  isCorrect: 1
   isPressed: 0
   pokeInteractableVisual: {fileID: 8019062757216657016}
   buttonVisual: {fileID: 9138124999447062377}
