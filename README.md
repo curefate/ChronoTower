@@ -1,5 +1,6 @@
 ## Introduction
 
+<img width="2245" height="3179" alt="LOGO" src="https://github.com/user-attachments/assets/c6fb92e8-86f5-463b-8fcc-79eeca7ae14b" />
 
 
 ChronoTower is a mixed-reality puzzle game where players help a small robot named Lil Charlie repair a broken clock tower by solving spatial, and intellectual puzzles.
