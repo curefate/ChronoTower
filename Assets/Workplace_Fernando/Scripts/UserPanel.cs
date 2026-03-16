@@ -30,8 +30,8 @@ public class UserPanel : MonoBehaviour
             new Hint { title = "WALK", desc = "Lil Charlie moves where he is pushed." }, //2
             new Hint { title = "PLATFORMS", desc = "Not every path is fixed. Try pulling the red pipes." }, //3
             new Hint { title = "CENTRAL\nBRIDGE", desc = "If a path doesn’t exist yet, the central cage might help." }, //4
-            new Hint { title = "TIME\nCONTROL", desc = "Some things grow with time... some reverse." }, //5
-            new Hint { title = "PASSWORD", desc = "The tower leaves clues for those who observe." }, //6
+            new Hint { title = "TIME\nCONTROL", desc = "You got the power of time by the buttons below..." }, //5
+            new Hint { title = "PASSWORD", desc = "The tower leaves 3 clues inside the tower." }, //6
             new Hint { title = "BLOCKED", desc = "Vines can't grow through blocked paths."}, // 7
             new Hint { title = "CONGRATULATIONS", desc = "Thank you for playing!"} // 8 mother fucker!!!
         };
