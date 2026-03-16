@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a78652bb35bd05445988b3db6ea683d1
+guid: e381d2daf75fd454f89a4fb08b3942a6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -8,47 +8,72 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Beige
-    second: {fileID: 2100000, guid: 955b9db7515168d44b2bf77dfad0078c, type: 2}
+    second: {fileID: 2100000, guid: 5d29732f381d6a94bae111ebd6d6f9d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beige.001
+    second: {fileID: 2100000, guid: 716c45a5089317d4d86ac25170f289e8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Copper.001
-    second: {fileID: 2100000, guid: 359d9f1224d9c34468b38b127389dc13, type: 2}
+    second: {fileID: 2100000, guid: 813911225cf942a498210772f271cdf3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: DarkBeige
-    second: {fileID: 2100000, guid: 6d63bea4f4637e344a4f27a828e70ae7, type: 2}
+    second: {fileID: 2100000, guid: a6c473476c6369f4b8cac0f00b69f9b2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: DarkBeige.001
-    second: {fileID: 2100000, guid: 643cb6ba56ff3d44bb91f4e7e0e03a2f, type: 2}
+    second: {fileID: 2100000, guid: 77e95d676f1be4642be589f3a5a2e417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkBeige.002
+    second: {fileID: 2100000, guid: 182c5a37581eba7468a44aaebe57d17b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrayPlatform
+    second: {fileID: 2100000, guid: fd84d52c1d20cc34495dc87c5cdbea0b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: LilCharlieSkin
-    second: {fileID: 2100000, guid: 1677f675e999c6444ba7d934d4fc4ae8, type: 2}
+    second: {fileID: 2100000, guid: f342c23b6fa8f204eb598ddbffa84b24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpaqueBlack
+    second: {fileID: 2100000, guid: cbf576793519c184096f2c2e3330791b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: OpaqueBlack.001
-    second: {fileID: 2100000, guid: dc42da491811c374fb9669fbd3f30a12, type: 2}
+    second: {fileID: 2100000, guid: 9768a701a0018a740b5d18808ea07687, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: PaleWhite
-    second: {fileID: 2100000, guid: 48314fd6ba2d3ba40ada174816268170, type: 2}
+    second: {fileID: 2100000, guid: b5cdd981e351c7e4b932e37bdbf1f3f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PaleWhite.001
+    second: {fileID: 2100000, guid: c011ca11024768c479c8b7f5dbd98b1c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: PitchBlack
-    second: {fileID: 2100000, guid: 2e7381b045a6c3e49ab887e5c5b8fc8f, type: 2}
+    second: {fileID: 2100000, guid: 4f3f1ae029a021b43a2c871db5c2fabe, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: RedValve
-    second: {fileID: 2100000, guid: 0d70de76d32aa434582f67dc54b6d038, type: 2}
+    second: {fileID: 2100000, guid: 412cf59e74d59cf4f92d684ea22c44da, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -145,7 +170,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
