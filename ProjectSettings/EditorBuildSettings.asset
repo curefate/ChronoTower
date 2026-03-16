@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Workplace/Scenes/Tower_v1.unity
     guid: d5dc61a0e03f9e240971f09908d9684e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Workplace/Scenes/Tower_v3.unity
     guid: f78e983639d387645ae53564daa3b343
-  - enabled: 1
+  - enabled: 0
     path: Assets/Workplace_Fernando/Scenes/Tower_v9.unity
     guid: d8bc90984050c2c4fa5ff24df5d04bd2
   m_configObjects:
