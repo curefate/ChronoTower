@@ -81,6 +81,8 @@ MonoBehaviour:
   OnPasscodeWrong:
     m_PersistentCalls:
       m_Calls: []
+  hideTransform: {fileID: 0}
+  showTransform: {fileID: 0}
 --- !u!1001 &649688826465631547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -437,6 +439,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2194086958505225196}
     m_Modifications:
+    - target: {fileID: 1119347164651886931, guid: 33076ff7ba80fa84ca0937addd5133d1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6526128344825764650, guid: 33076ff7ba80fa84ca0937addd5133d1, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.05

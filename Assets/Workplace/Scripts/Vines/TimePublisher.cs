@@ -5,6 +5,7 @@ public class TimePublisher : MonoBehaviour
 {
     public static TimePublisher Instance { get; private set; }
     [SerializeField] private List<ITimeListener> listeners;
+    [SerializeField] private bool kickOff;
 
     private bool _isKickedOff;
 
@@ -57,7 +58,7 @@ public class TimePublisher : MonoBehaviour
 
     private void Update()
     {
-        if (!_isKickedOff)
+        if (!_isKickedOff && kickOff)
         {
             KickOff();
             _isKickedOff = true;

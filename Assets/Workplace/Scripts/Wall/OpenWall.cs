@@ -7,6 +7,15 @@ public class OpenWall : MonoBehaviour
     public void SetIfShouldOpen(bool value)
     {
         ifShouldOpen = value;
+        if (!value && _isOpen)
+        {
+            _isOpen = false;
+            if (currentCoroutine != null)
+            {
+                StopCoroutine(currentCoroutine);
+            }
+            currentCoroutine = StartCoroutine(OpenOrCloseCoroutine(false));
+        }
     }
     [SerializeField] private Transform centralPivot;
 
@@ -14,11 +23,13 @@ public class OpenWall : MonoBehaviour
     private const float openSpeed = 18f;
     private const float openAngle = 90f;
 
+    private AudioSource audioSource;
     private Transform camPos;
     private Quaternion originalRotation;
     private Quaternion targetRotation;
     private Vector3 forwardDirection;
     private Coroutine currentCoroutine;
+    private bool _isOpen = false;
 
     private void Start()
     {
@@ -26,6 +37,7 @@ public class OpenWall : MonoBehaviour
         originalRotation = transform.rotation;
         targetRotation = Quaternion.Euler(0, openAngle, 0) * originalRotation;
         forwardDirection = transform.right;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -35,16 +47,18 @@ public class OpenWall : MonoBehaviour
         Vector3 toCam = camPos.position - centralPivot.position;
         toCam = Vector3.ProjectOnPlane(toCam, Vector3.up).normalized;
         float angleToCam = Vector3.Angle(forwardDirection, toCam);
-        if (angleToCam < detectionAngle)
+        if (angleToCam < detectionAngle && !_isOpen)
         {
+            _isOpen = true;
             if (currentCoroutine != null)
             {
                 StopCoroutine(currentCoroutine);
             }
             currentCoroutine = StartCoroutine(OpenOrCloseCoroutine(true));
         }
-        else
+        else if (angleToCam >= detectionAngle && _isOpen)
         {
+            _isOpen = false;
             if (currentCoroutine != null)
             {
                 StopCoroutine(currentCoroutine);
@@ -55,6 +69,8 @@ public class OpenWall : MonoBehaviour
 
     private IEnumerator OpenOrCloseCoroutine(bool open)
     {
+        audioSource.Play();
+
         var finalRotation = open ? targetRotation : originalRotation;
         while (Quaternion.Angle(transform.rotation, finalRotation) > 0.1f)
         {
@@ -62,5 +78,7 @@ public class OpenWall : MonoBehaviour
             yield return null;
         }
         transform.rotation = finalRotation;
+
+        audioSource.Stop();
     }
 }
