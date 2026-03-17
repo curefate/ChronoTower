@@ -1,8 +1,9 @@
 ## Introduction
+<img width="1920" height="1080" alt="Chronotower" src="https://github.com/user-attachments/assets/011082cd-e0c2-411a-8e0e-0544ec5a424f" />
 
-ChronoTower is a mixed-reality puzzle game where players help a small robot named Lil Charlie repair a broken clock tower by solving spatial and time-based puzzles.
+ChronoTower is a mixed-reality puzzle game where players help a small robot named Lil Charlie repair a broken clock tower by solving spatial, and intellectual puzzles.
 
-The experience takes place on a tabletop Mixed reality environment, where players interact with a miniature clock tower using hand gestures such as grabbing, poking, and rotating objects. Combining elements of perspective puzzles, time manipulation, and rotating environments, players guide Lil Charlie through multiple floors of the tower until reaching the top to repair the broken mechanism.
+The experience takes place on a tabletop Mixed reality environment, where players interact with a miniature clock tower using hand gestures such as grabbing, poking, and rotating objects. Combining elements of perspective puzzles, time manipulation using a tangible watch, and dragging platforms, players guide Lil Charlie through multiple floors of the tower until reaching the top to repair the broken mechanism.
 
 **The problem:** After discussing with the team and talking to some friends, we realised that many people crave intellectual puzzles, but many traditional puzzle games are usually experienced on flat screens and can limit the player's physical interaction with the environment.
 
@@ -10,57 +11,149 @@ The experience takes place on a tabletop Mixed reality environment, where player
 
 ## Design Process
 
-[_Add evidence on the general overview of how you planned, designed, and developed your project, including the goals, challenges, and solutions._]
-
 **Brainstorming**
  
+<table>
+
+<tr>
+<td align="center" width="40%">
+<img src="https://github.com/user-attachments/assets/010b7147-761a-4378-a347-1c7fc85b88a2" width="300">
+</td>
+
+<td width="60%">
+
 The project began with a group brainstorming session where we explored ideas for a mixed reality experience. Since many of us enjoy puzzle games, we decided to create an MR puzzle game focused on perspective puzzles, time control, and rotating structures. During this stage we also defined the core character, Lil Charlie, a small rusty robot created to repair clock towers.
 
-<p align="center"><img width="348" height="523" alt="Brainstorm document" src="https://github.com/user-attachments/assets/010b7147-761a-4378-a347-1c7fc85b88a2" /></p>
+</td>
+</tr>
 
-After defining the core concept, we created a moodboard to establish the visual direction of the project. We decided to adopt a steampunk-inspired aesthetic, influenced by mechanical clockwork systems, gears, and old machinery often associated with historical clock towers. This step helped the team align on a consistent visual identity for the environment and characters while ensuring that the overall atmosphere felt cohesive and believable.
 
-<p align="center"><img width="427" height="501" alt="Moodboard" src="https://github.com/user-attachments/assets/34427b18-1c2a-48ec-9c18-4fc7b5e6fce0" /></p>
+<tr>
+<td align="center">
+<img src="https://github.com/user-attachments/assets/34427b18-1c2a-48ec-9c18-4fc7b5e6fce0" width="300">
+</td>
 
-To communicate the concept more clearly within the team, we created an early visual draft of the game idea. This sketch illustrated the basic layout of the tower, the player’s perspective from outside the structure, and how players could interact with different puzzle elements. Creating this visualisation was an important step in aligning our understanding of the project, as some verbal references or inspirations were not familiar to all group members. Through this process, we realised that visual representations are one of the most effective ways to communicate design ideas, which became a key approach throughout the rest of our design and development process.
+<td>
 
-<p align="center"><img width="402" height="305" alt="Initial brainstorm draft" src="https://github.com/user-attachments/assets/c4004a10-51e2-4e6b-9cd8-034e9acf08c1" /></p>
+After defining the core concept, we created a moodboard to establish the visual direction of the project. We decided to adopt a <b>steampunk-inspired aesthetic</b>, influenced by mechanical clockwork systems, gears, and old machinery often associated with historical clock towers. This step helped the team align on a consistent visual identity for the environment and characters while ensuring that the overall atmosphere felt cohesive and believable.
+
+</td>
+</tr>
+
+
+<tr>
+<td align="center">
+<img src="https://github.com/user-attachments/assets/c4004a10-51e2-4e6b-9cd8-034e9acf08c1" width="300">
+</td>
+
+<td>
+
+To communicate the concept more clearly within the team, we created an early visual draft of the game idea. This sketch illustrated the basic layout of the tower, the player’s perspective from outside the structure, and how players could interact with different puzzle elements. Creating this visualisation was an important step in aligning our understanding of the project, as some verbal references or inspirations were not familiar to all group members.
+
+</td>
+</tr>
+
+</table>
+
 
 **User Persona**
 <img width="1008" height="563" alt="Screenshot 2026-03-09 at 2 21 24 AM" src="https://github.com/user-attachments/assets/aa55c007-dd83-4702-abea-73affcec3d43" />
 
 **User Journey**
 
+1. Discovery
+The player approaches the setup and sees a table where a miniature clock tower appears in mixed reality. If presented in a demo setting, a short briefing is given to introduce the experience and explain the goal of helping Lil Charlie repair the tower. Curious about the interactive environment, the player begins exploring the tower from different angles.
+
+2. Introduction
+A short introduction explains that the clock tower is broken and that the player must help Lil Charlie repair it. The player learns basic interactions such as grabbing objects and moving Lil Charlie.
+
+3. Exploration
+The player starts interacting with the tower by rotating bridges, moving platforms, and experimenting with the environment. Walking around the table allows them to view puzzles from different perspectives.
+
+4. Puzzle Solving
+As the player progresses through the tower floors, they encounter more complex puzzles. They must use mechanics such as time manipulation, rotating structures, and environmental clues to guide Lil Charlie forward.
+
+5. Completion
+After solving the final puzzle code, Lil Charlie will replace the broken gear and restore the clock tower.
+Outcome
+The tower begins working again, giving the player a sense of accomplishment for successfully solving the puzzles and repairing the tower.
+
+
 
 **Wireframes and Prototypes**
 
-Assets:
-V1
+Assets: 
+<br>
 
-V5
+<table>
+<tr>
+<td align="center">
 
+<b>V2</b><br>
+<img src="https://github.com/user-attachments/assets/aee33c26-b87e-4058-a576-de3dcc0d5661" width="350">
+<p>Initial sketches to align puzzle piecesd with the team</p>
 
-Prototype:
-V1
+</td>
+<td align="center">
 
+<b>V3</b><br>
+<img src="https://github.com/user-attachments/assets/062ba130-eb46-4b8f-b93c-cdf5d44caca0" width="350">
+<p>Full sketch of the entire ChronoTower (low-fi prototype)</p>
 
-V??
+</td>
+</tr>
 
+<tr>
+<td align="center">
 
+<b>V4</b><br>
+<img src="https://github.com/user-attachments/assets/a85b879b-55c8-4799-98a4-c9ab9d460ab5" width="350">
+<p>Finalised levels with basic colour details and outer design (mid-fi prototype)</p>
+
+</td>
+<td align="center">
+
+<b>V5</b><br>
+<img src="https://github.com/user-attachments/assets/69a300ae-f573-4986-94a4-ab598cdf876d" width="350">
+<p>Finalised levels with colour details and outer design (high-fi prototype)</p>
+
+</td>
+</tr>
+</table>
+
+<b>Wireframes</b>
+
+<table>
+<tr>
+<td align="center">
+<b>V3</b><br>
+<img src="https://github.com/user-attachments/assets/0abd3387-10a5-45e3-8484-297199bdc2fa" width="350">
+</td>
+
+<td align="center">
+<b>V5</b><br>
+<img src="https://github.com/user-attachments/assets/5d267d46-676a-4289-bb15-6b43d5255607" width="350">
+</td>
+</tr>
+</table>
 
 **User Research and Testing**
 
+In the beginning of our project, we talked to many people and found out that many people enjoy puzzle-based games, particularly those that are intellectually stimulating but not overly difficult. Based on this insight, the goal was to design puzzles that challenge players while remaining approachable and intuitive.
 
+After creating our workable prototype, we conducted informal user testing sessions to evaluate the gameplay experience and interaction design of ChronoTower. 
 
+During testing, participants were tasked to play the game, and interacted with the mixed reality tower using hand gestures to move bridges, rotate bridges, and manipulate puzzle elements. After completing the experience, participants were asked to provide feedback on the clarity of the interactions and overall gameplay.
 
+The feedback indicated that players generally enjoyed the puzzle mechanics and found the experience engaging. However, several participants mentioned that more guidance was needed at the beginning of the experience, as some interactions were not immediately obvious. In particular, players sometimes struggled to identify which objects were interactive.
+Based on this feedback, we improved the design by introducing clearer visual signifiers such as colored handles. We also recognised the importance of providing clearer instructions or a short briefing at the start of the experience to help players understand the core mechanics before attempting the puzzles.
 
+These testing sessions helped refine the interaction design and ensured that the puzzles remained engaging while still being accessible to new players.
 
 
 ## System description
 
-### Features & Functionalities
-
-[_Features and functionalities of your project. You can use bullet points, screenshots, gifs, or videos to illustrate your points. Also include a link to a demo or a live version of your project._]
+### Game Features & Functionalities
 
 ChronoTower includes several interactive features designed to showcase the potential of mixed reality for puzzle gameplay.
 
@@ -79,58 +172,66 @@ One of the core mechanics of ChronoTower is the ability to control the flow of t
 **Puzzle Locks**
 The final door at the top of the tower is protected by a lock mechanism that requires players to solve a symbol-based code. Players must observe clues and determine the correct combination in order to unlock the door and fix the tower.
 
-**Watch the demo video or try the live version.**
+**Watch the demo video: https://drive.google.com/file/d/1xsuVkEM5CKkluX5BhWLMt1i6UJe3qv0n/view?usp=sharing or try the live version.**
 
-Link: **FILL THIS INNNN**
+Link: 
+
+### Tangible interactions
+
+1. Tangible watch
+2. Start Button
+3. Restart Button
+4. Forward time button
+5. Rewind time button
+
 
 ## Digital Implementation
 
-!! how was this built technically eg. unity and blender etc
+Chrono Tower is designed as a table-scale Mixed Reality puzzle experience where a large clock tower suddenly appears in the player's real environment. The intention behind this design is to create an immediate “wow” moment, where a massive structure emerges inside the real room or tabletop space. By allowing the player to physically move around the tower, and manipulate its mechanisms with their hands, the experience creates the feeling of having god-like control over a miniature world.
+
+The project adopts a low-poly paper-toy inspired visual style, with bases on a steampunk aesthetic for the visual story telling. This choice supports both the playful narrative tone and the technical constraints of standalone mixed reality hardware, allowing the tower and its mechanisms to remain readable and performant while maintaining a handcrafted toy-like aesthetic.
+
+The development workflow combines several tools:
+Blender 5.0.1: Creation of all 3D models and environment assets
+Adobe Illustrator: 2D graphic assets and visual textures
+Unity 6: Implementation of gameplay system, mixed reality interaction, and scene assembly
+Together these tools support a pipeline where stylized assets are modeled externally and assembled into an interactive MR puzzle environment inside Unity.
+
+The project's implementation relies on the Meta SDK. Specifically, the interaction implementation depends on the Meta XR Interaction SDK. PathAlignTransformer implements an ITransformer interface to control the trajectory of dragged objects and performs transform based on interpolation of the distance between set points. The mixed reality implementation relies on the Meta MR Utility Kit, utilizing its built-in Passthrough and Occlusion functions and calling the Scene API to get the position of real table.
 
 ## Installation
 
-[_Installation process to build and run your project. Use code blocks, tables, or lists to show the commands, steps, or requirements the chosen platform. Mention any dependencies or libraries that your project uses and how to install them._]
+Requirements:
+- Meta Quest 3, Meta Quest 3s or Meta Quest pro.
+- Allow the use of spatial data.
+- Allow the use of [experimental features](https://developers.meta.com/horizon/documentation/native/android/mobile-experimental-features).
 
-To install and run ChronoTower on your platform or device, follow the instructions below:
-
-| Platform | Device | Requirements | Commands |
-| -------- | ------ | ------------ | -------- |
-| Windows  | Meta Quest   | Unity 2022.3 or higher, Arduino | `git clone https://github.com/user/repo.git`<br>`cd project-xr`<br>`open MainScene.unity`<br>`Build and Run` |
-| Android  | Phone  | Android 19 or higher, ARCore 1.18 or higher | `git clone https://github.com/user/repo.git`<br>`cd solar-system-xr`<br>`open SolarSystemXR.unity`<br>`switch platform to Android`<br>`build and run` |
-
-You also need to install the following dependencies or libraries for your project:
-
-- Library A - a Unity plugin for building VR and AR experiences
-- Library B - a C# wrapper for speech recognition and synthesis
+To get the game:
+- Download the released .apk from [github](https://github.com/curefate/ChronoTower).
+- Clone source code from repository and build apk youself:
+    1. `git clone https://github.com/curefate/ChronoTower`
+    2. Open project in Unity 6000.3.0f1+.
+    3. Switch platform to Android.
+    4. Build.
+- > Download from Meta Store TODO
 
 ## Usage
-
-[_Usage section showing how to use your project and interact with its features. You can use examples, screenshots, gifs, or videos to demonstrate the user interface, controls, and feedback of your project. You can also provide tips, tricks, or best practices for using your project effectively._]
-
 To use ChronoTower and interact with its features, follow the guidelines below:
 
-- To move around, use the touchpad or the joystick on your controller, or swipe on your phone screen.
-- To select ...a planet or a moon, point at it with your controller or your phone, or gaze at it with your headset.
-- To zoom in or out, use the trigger or the button on your controller, or pinch on your phone screen.
-- To access the information panel, press...
-- To use voice commands, say "OK" followed by one of the following phrases:
-  - "Show me [X]" - to show X element
-  - "Close window Y" - to close window Y
+- To move around, use your finger to push Lil Charlie in the desired direction.
+- To drag a platform, pinch the handles and pull.
+- To drag the bridge, pinch the handle and pull upwards.
+- To forward or reverse time, look at the watch on your wrist and use your finger of your opposite hand to rotate the clock clockwise or counterclockwise.
+- To enter a password, poke the buttons on the password panel.
+- To see inside the tower from a different direction, walk around the tower to change your perspective.
   
-Some tips, tricks, and best practices for using [Your App XR} effectively:
-
-- Tip 1
-- Tip 2
-
   
 ## References
+Music: https://www.storyblocks.com
 
-Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
 
 ## Contributors
 
-Fernando Valcazara
-Li Zijie
-Tan Ju Wei Audrie
-
-contact information, and links to their websites or portfolios.
+Fernando Valcazara: fernandovalcazara@gmail.com
+Li Zijie: curefate@outlook.com
+Tan Ju Wei Audrie: audiwei123@gmail.com
