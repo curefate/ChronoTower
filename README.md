@@ -3,7 +3,7 @@
 
 ChronoTower is a mixed-reality puzzle game where players help a small robot named Lil Charlie repair a broken clock tower by solving spatial, and intellectual puzzles.
 
-The experience takes place on a tabletop Mixed reality environment, where players interact with a miniature clock tower using hand gestures such as grabbing, poking, and rotating objects. Combining elements of perspective puzzles, time manipulation using a tangible watch, and dragging platforms, players guide Lil Charlie through multiple floors of the tower until reaching the top to repair the broken mechanism.
+The experience takes place on a tabletop Mixed reality environment, where players interact with a miniature clock tower using hand gestures such as grabbing, poking, and rotating objects. Combining elements of perspective puzzles, time manipulation, and dragging platforms, players guide Lil Charlie through multiple floors of the tower until reaching the top to repair the broken mechanism.
 
 **The problem:** After discussing with the team and talking to some friends, we realised that many people crave intellectual puzzles, but many traditional puzzle games are usually experienced on flat screens and can limit the player's physical interaction with the environment.
 
@@ -217,7 +217,7 @@ To use ChronoTower and interact with its features, follow the guidelines below:
 - To move around, use your finger to push Lil Charlie in the desired direction.
 - To drag a platform, pinch the handles and pull.
 - To drag the bridge, pinch the handle and pull upwards.
-- To forward or reverse time, look at the watch on your wrist and use your finger of your opposite hand to rotate the clock clockwise or counterclockwise.
+- To forward or reverse time, press the buttons in on the instructions canvas in the game.
 - To enter a password, poke the buttons on the password panel.
 - To see inside the tower from a different direction, walk around the tower to change your perspective.
   
