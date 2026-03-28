@@ -32,6 +32,10 @@ public class MRUKNearestTableAnchor : MonoBehaviour
             Debug.Log("[MRUK] 找到最近桌子：" + nearestTable.name);
             PlaceOnTable(nearestTable);
         }
+        else
+        {
+            targetTransform.position = new Vector3(0, 0, 0) + placementOffset; // 默认位置
+        }
     }
 
     // ----------------------------------------------------------
