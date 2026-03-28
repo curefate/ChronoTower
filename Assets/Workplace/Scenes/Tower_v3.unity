@@ -1106,6 +1106,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 995532597}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &115393317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115393318}
+  - component: {fileID: 115393319}
+  m_Layer: 0
+  m_Name: WristDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115393318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115393317}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 349170788}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &115393319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115393317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4541a69cfdbcca343aa7784474a52d80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WristDetector
+  wristTransform: {fileID: 1078908565}
+  angleThreshold: 50
+  onWristUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 180747202}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onWristDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 180747202}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &142848980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,7 +1992,7 @@ Transform:
   m_GameObject: {fileID: 278345223}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0000000037252903, y: 0.1174, z: 0.75}
+  m_LocalPosition: {x: 0.0000000037252903, y: 0.0525, z: 0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2750,6 +2826,7 @@ Transform:
   - {fileID: 645693550}
   - {fileID: 2080390560}
   - {fileID: 740464379}
+  - {fileID: 115393318}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &349984846
@@ -4670,7 +4747,6 @@ Transform:
   - {fileID: 1443148392}
   - {fileID: 1747807799}
   - {fileID: 569405834}
-  - {fileID: 2062692847}
   - {fileID: 1115194189}
   - {fileID: 6618903501163403002}
   m_Father: {fileID: 0}
@@ -9589,7 +9665,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1699083829521782386, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2062692847}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4148778239110795873, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       insertIndex: 1
@@ -9623,6 +9702,11 @@ MonoBehaviour:
   installationRoutineCheckpoint:
     _installationRoutineId: 2063f481-1b63-4eda-9ee8-a00df98536bc
     _installationVariants: []
+--- !u!4 &1078908565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1699083829521782386, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+  m_PrefabInstance: {fileID: 1078908561}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1079835124
 GameObject:
   m_ObjectHideFlags: 0
@@ -13781,7 +13865,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 575498768}
+    m_TransformParent: {fileID: 1078908565}
     m_Modifications:
     - target: {fileID: 186058746524286299, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14277,31 +14361,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.489
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.3975
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.908
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.42261827
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -14309,11 +14393,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9063079
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14321,7 +14405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -130
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5632217309244744298, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -14342,6 +14426,10 @@ PrefabInstance:
     - target: {fileID: 6626379398883995329, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_Name
       value: UserPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626379398883995329, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6626379398883995329, guid: e6623cd38a112a74ebbd2ef36246c37d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14999,7 +15087,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -27666,7 +27754,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0

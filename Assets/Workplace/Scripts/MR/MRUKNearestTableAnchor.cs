@@ -10,7 +10,7 @@ public class MRUKNearestTableAnchor : MonoBehaviour
 
     [Header("放置偏移量")]
     [Tooltip("物体放置在桌面上的高度偏移")]
-    public Vector3 placementOffset = new Vector3(0, 0.05f, 0);
+    public Vector3 placementOffset;
 
     private Transform player;
 
@@ -31,10 +31,6 @@ public class MRUKNearestTableAnchor : MonoBehaviour
         {
             Debug.Log("[MRUK] 找到最近桌子：" + nearestTable.name);
             PlaceOnTable(nearestTable);
-        }
-        else
-        {
-            targetTransform.position = new Vector3(0, 0, 0) + placementOffset; // 默认位置
         }
     }
 

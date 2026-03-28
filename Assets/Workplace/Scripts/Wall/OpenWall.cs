@@ -20,7 +20,7 @@ public class OpenWall : MonoBehaviour
     [SerializeField] private Transform centralPivot;
 
     private const float detectionAngle = 45f;
-    private const float openSpeed = 18f;
+    private const float openSpeed = 19f;
     private const float openAngle = 90f;
 
     private AudioSource audioSource;
