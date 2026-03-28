@@ -23,6 +23,10 @@ public class MRUKNearestTableAnchor : MonoBehaviour
     {
         Debug.Log("[MRUK] Scene Loaded. 开始查找桌子…");
 
+        if (MRUK.Instance == null || MRUK.Instance.GetCurrentRoom() == null)
+        {
+            return;
+        }
         var anchors = MRUK.Instance.GetCurrentRoom().Anchors;
 
         MRUKAnchor nearestTable = FindNearestTable(anchors);
@@ -94,6 +98,5 @@ public class MRUKNearestTableAnchor : MonoBehaviour
 
         // 应用偏移量
         targetTransform.position = placePos + placementOffset;
-        Debug.Log($"[MRUK] 最终放置位置: {targetTransform.position} (偏移: {placementOffset})");
     }
 }
