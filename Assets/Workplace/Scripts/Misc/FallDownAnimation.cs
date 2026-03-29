@@ -14,7 +14,8 @@ public class FallDownAnimation : MonoBehaviour
 
     private bool _isStarted = false;
 
-    private const float _acceleration = 9.8f;
+    private const float _speed_factor = 2f;
+    private static WaitForSeconds _waitForSeconds2 = new(2f);
     private static WaitForSeconds _waitForSeconds0_1 = new(0.1f);
 
     public void Execute()
@@ -23,8 +24,6 @@ public class FallDownAnimation : MonoBehaviour
         {
             _isStarted = true;
             root.gameObject.SetActive(true);
-            var camTrans = Camera.main.transform;
-            root.transform.position = new Vector3(camTrans.position.x, 0, camTrans.position.z) + Vector3.ProjectOnPlane(camTrans.forward, Vector3.up).normalized * 2f;
             StartCoroutine(StartFallDown());
         }
     }
@@ -44,11 +43,11 @@ public class FallDownAnimation : MonoBehaviour
                 yield return _waitForSeconds0_1; // Stagger the start of each bundle's fall
             }
 
-            float delay = Random.Range(.5f, 1.5f);
+            float delay = Random.Range(.3f, 1f);
             yield return new WaitForSeconds(delay);
         }
 
-        yield return new WaitForSeconds(2f);
+        yield return _waitForSeconds2;
         onFallComplete.Invoke();
     }
 
@@ -57,15 +56,14 @@ public class FallDownAnimation : MonoBehaviour
         Vector3 startPos = transform.position;
         Vector3 endPos = Vector3.zero;
 
-        float speed = 1f;
-
-        while (Vector3.Distance(transform.position, endPos) > 0.01f)
+        float speed = 0f;
+        while (Vector3.Distance(transform.localPosition, endPos) > 0.01f)
         {
-            transform.position = Vector3.Lerp(startPos, endPos, speed);
-            speed += _acceleration * Time.deltaTime; // Accelerate the fall
+            transform.localPosition = Vector3.Lerp(startPos, endPos, speed);
+            speed += Time.deltaTime * _speed_factor;
             yield return null;
         }
-        transform.position = endPos;
+        transform.localPosition = endPos;
         audioSource.PlayOneShot(fallSound);
     }
 }

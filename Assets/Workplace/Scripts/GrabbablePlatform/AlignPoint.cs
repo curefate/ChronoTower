@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class AlignPoint : MonoBehaviour
 {
     [SerializeField] private bool isAlignable = true;
-    public bool IsAlignable => isAlignable;
+    public bool IsAlignable { get => isAlignable; set => isAlignable = value; }
     public UnityEvent onAlign;
     public UnityEvent onExit;
 }
