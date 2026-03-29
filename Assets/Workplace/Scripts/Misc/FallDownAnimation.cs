@@ -43,7 +43,7 @@ public class FallDownAnimation : MonoBehaviour
                 yield return _waitForSeconds0_1; // Stagger the start of each bundle's fall
             }
 
-            float delay = Random.Range(.3f, 1f);
+            float delay = Random.Range(.2f, .5f);
             yield return new WaitForSeconds(delay);
         }
 
