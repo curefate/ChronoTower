@@ -75,12 +75,9 @@ public class UserPanel : MonoBehaviour
         descriptionText.text = "";
     }
 
-    public void startGame()
+    public void FadeButton()
     {
-
-        //playButton.SetActive(false);
         StartCoroutine(FadePlayButton());
-        Debug.Log("Should Start the Game");
     }
 
     IEnumerator FadePlayButton()
