@@ -1,10 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PushToMoveButton : MonoBehaviour
 {
     [SerializeField] private NodeMover nodeMover;
     [SerializeField] private bool reverseDirection;
+    [SerializeField] private UnityEvent onNoTarget;
 
     public void OnPressed()
     {
