@@ -18,6 +18,15 @@ public class FallDownAnimation : MonoBehaviour
     private static WaitForSeconds _waitForSeconds2 = new(2f);
     private static WaitForSeconds _waitForSeconds0_1 = new(0.1f);
 
+    public void Start()
+    {
+        root.gameObject.SetActive(false);
+        foreach (var bundle in bundles)
+        {
+            bundle.localPosition = new Vector3(bundle.localPosition.x, 10f, bundle.localPosition.z);
+        }
+    }
+
     public void Execute()
     {
         if (!_isStarted)
