@@ -1,8 +1,11 @@
 using UnityEngine;
 using System.Collections;
+using Oculus.Interaction;
 
 public class SignifierManager : MonoBehaviour
 {
+    public InteractableUnityEventWrapper wrapper;
+
     [Header("Particle System")]
     public GameObject signifierPrefab;
 
@@ -23,6 +26,11 @@ public class SignifierManager : MonoBehaviour
 
     void Start()
     {
+        if (wrapper != null)
+        {
+            wrapper.WhenHover.AddListener(ActivateSignifier);
+            wrapper.WhenUnhover.AddListener(DeactivateSignifier);
+        }
         CreateRimInstance();
     }
 
@@ -52,13 +60,32 @@ public class SignifierManager : MonoBehaviour
         rimMF.sharedMesh = mf.sharedMesh;
 
         // Match material count
+        /*
         Material[] mats = new Material[mr.materials.Length];
         for (int i = 0; i < mats.Length; i++)
         {
             mats[i] = rimMaterial;
         }
-
         rimMR.materials = mats;
+        */
+        Material[] originalMats = mr.materials;
+        Material[] newMats = new Material[originalMats.Length];
+        for (int i = 0; i < originalMats.Length; i++)
+        {
+            if (originalMats[i] != null &&
+                originalMats[i].shader != null &&
+                originalMats[i].shader.name == "EnvironmentDepth/URP/OcclusionUnlit")
+            {
+                // Apply rim only to matching shader
+                newMats[i] = rimMaterial;
+            }
+            else
+            {
+                // Disable rendering for this submesh
+                newMats[i] = originalMats[i];
+            }
+        }
+        rimMR.materials = newMats;
 
         rimInstance.SetActive(false);
     }
