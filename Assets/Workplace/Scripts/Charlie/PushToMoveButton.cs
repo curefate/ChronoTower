@@ -28,6 +28,10 @@ public class PushToMoveButton : MonoBehaviour
         {
             nodeMover.MoveTowardTo(target);
         }
+        else
+        {
+            onNoTarget.Invoke();
+        }
     }
 
     void OnDrawGizmosSelected()
